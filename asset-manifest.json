@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a8225c73.chunk.css",
+    "main.js": "/static/js/main.008d01b0.chunk.js",
+    "main.js.map": "/static/js/main.008d01b0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bfca2edd.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bfca2edd.js.map",
+    "static/js/2.4cf1a145.chunk.js": "/static/js/2.4cf1a145.chunk.js",
+    "static/js/2.4cf1a145.chunk.js.map": "/static/js/2.4cf1a145.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.5de6305711c890a69f7df7a696866ef8.js": "/precache-manifest.5de6305711c890a69f7df7a696866ef8.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.a8225c73.chunk.css.map": "/static/css/main.a8225c73.chunk.css.map",
+    "static/js/2.4cf1a145.chunk.js.LICENSE.txt": "/static/js/2.4cf1a145.chunk.js.LICENSE.txt",
+    "static/media/emailicon.png": "/static/media/emailicon.ab95adb7.png",
+    "static/media/linkedinlogo.png": "/static/media/linkedinlogo.b028c2e5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bfca2edd.js",
+    "static/js/2.4cf1a145.chunk.js",
+    "static/css/main.a8225c73.chunk.css",
+    "static/js/main.008d01b0.chunk.js"
+  ]
+}
