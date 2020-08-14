@@ -42,7 +42,9 @@ class Left extends React.Component{
         return(
             <div className="Split Left">
                 <header className="Left-header">
-
+                    <div>
+                        holder for image
+                    </div>
                 </header>
                 <Menu
                     handlePageChange={this.props.handlePageChange}
