@@ -12,7 +12,7 @@ class LinkBubble extends React.Component{
                     href={this.props.bubble.url}
                     title={this.props.bubble.name}
                     target="_blank"
-                    rel="noopener nonreferrer"
+                    rel="noopener noreferrer"
                 >
                     <img
                         src={this.props.bubble.image}

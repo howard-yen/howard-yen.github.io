@@ -3,7 +3,6 @@ import BubbleRow from './SocialMediaBubbles'
 
 import ReactPageScroller from "react-page-scroller";
 import Nav from 'react-bootstrap/Nav';
-import Pagination from 'react-bootstrap/Pagination';
 
 import './App.css';
 
