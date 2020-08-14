@@ -2,7 +2,7 @@
   "short_name": "React Website",
   "name": "Howard Yen's React Website",
   "version": "0.1.0",
-  "homepage": "https://howard-yen.github.io/",
+  "homepage": "https://howard-yen.github.io/howard-yen.github.io",
   "dependencies": {
 		"gh-pages": "^2.0.1",
 		"react": "^16.8.3",
