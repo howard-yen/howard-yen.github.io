@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/howard-yen.github.io/static/css/main.a8225c73.chunk.css",
+    "main.js": "/howard-yen.github.io/static/js/main.dd3b189a.chunk.js",
+    "main.js.map": "/howard-yen.github.io/static/js/main.dd3b189a.chunk.js.map",
+    "runtime-main.js": "/howard-yen.github.io/static/js/runtime-main.767e0e86.js",
+    "runtime-main.js.map": "/howard-yen.github.io/static/js/runtime-main.767e0e86.js.map",
+    "static/js/2.4cf1a145.chunk.js": "/howard-yen.github.io/static/js/2.4cf1a145.chunk.js",
+    "static/js/2.4cf1a145.chunk.js.map": "/howard-yen.github.io/static/js/2.4cf1a145.chunk.js.map",
+    "index.html": "/howard-yen.github.io/index.html",
+    "precache-manifest.20cfd2f7a05775989280b2a431e36c57.js": "/howard-yen.github.io/precache-manifest.20cfd2f7a05775989280b2a431e36c57.js",
+    "service-worker.js": "/howard-yen.github.io/service-worker.js",
+    "static/css/main.a8225c73.chunk.css.map": "/howard-yen.github.io/static/css/main.a8225c73.chunk.css.map",
+    "static/js/2.4cf1a145.chunk.js.LICENSE.txt": "/howard-yen.github.io/static/js/2.4cf1a145.chunk.js.LICENSE.txt",
+    "static/media/emailicon.png": "/howard-yen.github.io/static/media/emailicon.ab95adb7.png",
+    "static/media/linkedinlogo.png": "/howard-yen.github.io/static/media/linkedinlogo.b028c2e5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.767e0e86.js",
+    "static/js/2.4cf1a145.chunk.js",
+    "static/css/main.a8225c73.chunk.css",
+    "static/js/main.dd3b189a.chunk.js"
+  ]
+}
