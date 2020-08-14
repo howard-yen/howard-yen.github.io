@@ -13,7 +13,7 @@ class Menu extends React.Component{
                 onSelect={this.props.handlePageChange}
             className="menu flex-column">
                 <Nav.Link eventKey="0">About</Nav.Link>
-                <Nav.Link eventKey="1">Project</Nav.Link>
+                <Nav.Link eventKey="1">Projects</Nav.Link>
                 <Nav.Link eventKey="2">Contacts</Nav.Link>
             </Nav>
         );
