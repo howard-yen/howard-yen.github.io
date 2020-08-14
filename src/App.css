@@ -1,10 +1,56 @@
-.App {
-  text-align: center;
+.Split{
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Left{
+    width: 30%;
+    left: 0;
+    background-color: #e3dfc8;
+}
+
+.Right{
+    width: 70%;
+    right: 0;
+    /* background-color: #B7E9F7; */
+    background-color: #f5f1da;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.BubbleRow{
+    /* background-color: #eebb4d; */
+    display: flex;
+    justify-content: center;
+
+    /* position: absolute; */
+    /* bottom: 0%; */
+    /* left: 50%; */
+}
+
+.Block{
+    width: 70%;
+    height: 100%;
+    display: flex;
+}
+
+footer{
+    position: absolute;
+    width: 90%;
+    bottom: 0;
+    padding: 5%;
+}
+
+.Bubble{
+    padding: 10px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -22,10 +68,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
