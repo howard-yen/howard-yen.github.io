@@ -1,6 +1,8 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "React Website",
+  "name": "Howard Yen's React Website",
+  "version": "0.1.0",
+  "homepage": "https://howard-yen.github.io/",
   "icons": [
     {
       "src": "favicon.ico",
