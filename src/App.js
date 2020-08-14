@@ -7,14 +7,31 @@ import Nav from 'react-bootstrap/Nav';
 import './App.css';
 
 class Menu extends React.Component{
+    getButtons = (pages, currentPage) => {
+        const buttons = [];
+
+        for(let i = 0; i < pages.length; i++){
+            let o = {opacity: i===currentPage ? '100%' : '50%'};
+
+            buttons.push(
+                <Nav.Link className="MenuButton" key={i} eventKey={i}
+                    style={o}>
+                    {pages[i]}
+                </Nav.Link>
+            );
+        }
+
+        return [...buttons];
+    }
+
     render(){
+        const buttons = this.getButtons(this.props.pages, this.props.currentPage);
+
         return(
-            <Nav defaultActiveKey="0"
+            <Nav defaultActiveKey={this.props.currentPage}
                 onSelect={this.props.handlePageChange}
             className="menu flex-column">
-                <Nav.Link eventKey="0">About</Nav.Link>
-                <Nav.Link eventKey="1">Projects</Nav.Link>
-                <Nav.Link eventKey="2">Contacts</Nav.Link>
+                {buttons}
             </Nav>
         );
     };
@@ -29,6 +46,8 @@ class Left extends React.Component{
                 </header>
                 <Menu
                     handlePageChange={this.props.handlePageChange}
+                    pages={this.props.pages}
+                    currentPage={this.props.currentPage}
                 />
                 <footer>
                     <BubbleRow />
@@ -80,21 +99,23 @@ export default class Page extends React.Component{
             currentPage: 0,
             pages:[
                 "About",
-                "Project"
+                "Projects",
+                "Contacts"
             ],
         };
     }
 
     handlePageChange = number => {
-        this.setState({ currentPage: number }); // set currentPage number, to reset it from the previous selected.
+        this.setState({ currentPage: typeof number === 'string' ? parseInt(number) : number }); // set currentPage number, to reset it from the previous selected.
     };
 
     render(){
-        console.log('this.state.currentPage is ' + this.state.currentPage);
         return(
             <div className="Page">
                 <Left
                     handlePageChange={this.handlePageChange}
+                    pages={this.state.pages}
+                    currentPage={this.state.currentPage}
                 />
 
                 <Right

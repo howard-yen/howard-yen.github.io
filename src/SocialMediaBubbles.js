@@ -41,7 +41,7 @@ export default class BubbleRow extends React.Component{
         const bubbles = [];
 
         for(let b of this.state.bubbles){
-            bubbles.push(<LinkBubble bubble={b}/>);
+            bubbles.push(<LinkBubble key={b.name} bubble={b}/>);
         }
         return [...bubbles];
     };
