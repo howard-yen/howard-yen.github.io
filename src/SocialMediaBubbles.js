@@ -12,7 +12,7 @@ class LinkBubble extends React.Component{
                     href={this.props.bubble.url}
                     title={this.props.bubble.name}
                     target="_blank"
-                    rel="nonreferrer"
+                    rel="noopener nonreferrer"
                 >
                     <img
                         src={this.props.bubble.image}
@@ -30,9 +30,9 @@ export default class BubbleRow extends React.Component{
         super(props);
         this.state={
             bubbles:[
-                {url: "https://github.com/howard-yen/", image: githubmark, name: "github",},
-                {url: "https://www.linkedin.com/in/howard-yen/", image: linkedinlogo, name: "linkedin",},
-                {url: "mailto:howardy2000@gmail.com", image: emailicon, name: "email",}
+                {url: "https://github.com/howard-yen/", image: githubmark, name: "github", key:"github",},
+                {url: "https://www.linkedin.com/in/howard-yen/", image: linkedinlogo, name: "linkedin", key:"linkedin",},
+                {url: "mailto:howardy2000@gmail.com", image: emailicon, name: "email", key:"email",}
             ],
         };
     }
