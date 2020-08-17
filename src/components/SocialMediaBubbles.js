@@ -30,9 +30,9 @@ export default class BubbleRow extends React.Component{
         super(props);
         this.state={
             bubbles:[
-                {url: "https://github.com/howard-yen/", image: githubmark, name: "github", key:"github",},
-                {url: "https://www.linkedin.com/in/howard-yen/", image: linkedinlogo, name: "linkedin", key:"linkedin",},
-                {url: "mailto:hyen@princeton.edu", image: emailicon, name: "email", key:"email",}
+                {url: "https://github.com/howard-yen/", image: githubmark, name: "github",},
+                {url: "https://www.linkedin.com/in/howard-yen/", image: linkedinlogo, name: "linkedin",},
+                {url: "mailto:hyen@princeton.edu", image: emailicon, name: "email",}
             ],
         };
     }

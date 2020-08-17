@@ -1,17 +1,21 @@
 .Projects{
-    display: flex;
-    flex-wrap: wrap;
     position: absolute;
-    padding: 1%;
-    width: 68%;
-    height: 98%;
+    padding: 2%;
+    width: 66%;
+    height: 96%;
+}
+
+.CardContainer{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 .Card{
     position: relative;
-    width: 30%;
-    height: 30%;
-    background: grey;
+    /* width: 30%; */
+    /* height: 30%; */
+    background: white;
     border-radius: 1%;
     box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.3);
     transition: box-shadow 0.5s;
@@ -21,4 +25,12 @@
 
 .Card:hover{
     box-shadow: 0px 30px 100px -10px rgba(0,0,0,0.4);
+    z-index: 3;
+}
+
+.ProjectButton{
+    border: none;
+    outline: none;
+    color: black;
+    text-decoration: none;
 }
