@@ -1,0 +1,24 @@
+.Projects{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    padding: 1%;
+    width: 68%;
+    height: 98%;
+}
+
+.Card{
+    position: relative;
+    width: 30%;
+    height: 30%;
+    background: grey;
+    border-radius: 1%;
+    box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.3);
+    transition: box-shadow 0.5s;
+    will-change: transform;
+    border: 15px solid white;
+}
+
+.Card:hover{
+    box-shadow: 0px 30px 100px -10px rgba(0,0,0,0.4);
+}

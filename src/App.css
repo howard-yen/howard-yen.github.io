@@ -4,13 +4,6 @@
     z-index: 1;
     top: 0;
     overflow-x: hidden;
-    padding-top: 20px;
-}
-
-.Left{
-    width: 30%;
-    left: 0;
-    background-color: #e3dfc8;
 }
 
 .Right{
@@ -26,70 +19,9 @@
     text-align: right;
 }
 
-.menu{
-    position: absolute;
-    width: 90%;
-    padding: 5%;
-    right: 0%;
-}
-
-.BubbleRow{
-    /* background-color: #eebb4d; */
-    display: flex;
-    justify-content: center;
-
-    /* position: absolute; */
-    /* bottom: 0%; */
-    /* left: 50%; */
-}
-
 .Block{
+    position: relative;
     width: 70%;
-    height: 80%;
-    display: flex;
-}
-
-footer{
-    position: absolute;
-    width: 90%;
-    bottom: 0;
-    padding: 5%;
-}
-
-.MenuButton{
-    font-size: 200%;
-    border: none;
-    outline: none;
-    color: black;
-    text-decoration: none;
-}
-
-.Bubble{
-    padding: 10px;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    height: 100%;
+    /* display: flex; */
 }

@@ -1,0 +1,43 @@
+.Split{
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+}
+
+.Left{
+    width: 30%;
+    left: 0;
+    background-color: #e3dfc8;
+}
+
+.Left-header{
+    position:relative;
+    width: 90%;
+    padding: 5%;
+    display: grid;
+    place-items: center;
+}
+
+.menu{
+    position: absolute;
+    width: 90%;
+    padding: 5%;
+    right: 0%;
+}
+
+footer{
+    position: absolute;
+    width: 90%;
+    bottom: 0;
+    padding: 5%;
+}
+
+.MenuButton{
+    font-size: 200%;
+    border: none;
+    outline: none;
+    color: black;
+    text-decoration: none;
+}

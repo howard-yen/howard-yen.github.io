@@ -1,64 +1,10 @@
 import React from 'react';
-import BubbleRow from './SocialMediaBubbles'
+import Left from './components/Left';
+import ProjectsComponent from './components/ProjectsComponent';
 
 import ReactPageScroller from "react-page-scroller";
-import Nav from 'react-bootstrap/Nav';
 
 import './App.css';
-
-class Menu extends React.Component{
-    getButtons = (pages, currentPage) => {
-        const buttons = [];
-
-        for(let i = 0; i < pages.length; i++){
-            let o = {opacity: i===currentPage ? '100%' : '50%'};
-
-            buttons.push(
-                <Nav.Link className="MenuButton" key={i} eventKey={i}
-                    style={o}>
-                    {pages[i]}
-                </Nav.Link>
-            );
-        }
-
-        return [...buttons];
-    }
-
-    render(){
-        const buttons = this.getButtons(this.props.pages, this.props.currentPage);
-
-        return(
-            <Nav defaultActiveKey={this.props.currentPage}
-                onSelect={this.props.handlePageChange}
-            className="menu flex-column">
-                {buttons}
-            </Nav>
-        );
-    };
-}
-
-class Left extends React.Component{
-    render(){
-        return(
-            <div className="Split Left">
-                <header className="Left-header">
-                    <div>
-                        holder for image
-                    </div>
-                </header>
-                <Menu
-                    handlePageChange={this.props.handlePageChange}
-                    pages={this.props.pages}
-                    currentPage={this.props.currentPage}
-                />
-                <footer>
-                    <BubbleRow />
-                </footer>
-            </div>
-
-        );
-    }
-}
 
 class Block extends React.Component{
     render(){
@@ -67,7 +13,6 @@ class Block extends React.Component{
                 <h2>
                     {this.props.name}
                 </h2>
-
                 <p>
                     {this.props.content}
                 </p>
@@ -86,13 +31,15 @@ class Right extends React.Component{
                     customPageNumber={this.props.customPageNumber}
                 >
                     <Block name="about" content="this is about me" />
-                    <Block name="projects" content="this is about my projects"/>
+                    {/* <Block name="projects" content="this is about my projects"/> */}
+                    <ProjectsComponent className="Component"/>
+                    <Block name="timeline" content="timeline about experiences here"/>
                     <Block name="contacts" content="you can contact me here: "/>
-                        </ReactPageScroller>
+                </ReactPageScroller>
             </div>
-        );
+            );
+        }
     }
-}
 
 export default class Page extends React.Component{
     constructor(props){
@@ -102,6 +49,7 @@ export default class Page extends React.Component{
             pages:[
                 "About",
                 "Projects",
+                "Timeline",
                 "Contacts"
             ],
         };

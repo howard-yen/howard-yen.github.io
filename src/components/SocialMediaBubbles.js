@@ -1,7 +1,7 @@
 import React from 'react';
-import githubmark from './images/githubmark.png';
-import linkedinlogo from './images/linkedinlogo.png';
-import emailicon from './images/emailicon.png';
+import githubmark from '../images/githubmark.png';
+import linkedinlogo from '../images/linkedinlogo.png';
+import emailicon from '../images/emailicon.png';
 
 import './SocialMediaBubbles.css';
 
@@ -32,7 +32,7 @@ export default class BubbleRow extends React.Component{
             bubbles:[
                 {url: "https://github.com/howard-yen/", image: githubmark, name: "github", key:"github",},
                 {url: "https://www.linkedin.com/in/howard-yen/", image: linkedinlogo, name: "linkedin", key:"linkedin",},
-                {url: "mailto:howardy2000@gmail.com", image: emailicon, name: "email", key:"email",}
+                {url: "mailto:hyen@princeton.edu", image: emailicon, name: "email", key:"email",}
             ],
         };
     }
