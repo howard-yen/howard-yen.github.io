@@ -42,7 +42,8 @@ export default class Left extends React.Component{
             <div className="Split Left">
                 <header className="Left-header">
                     <img src={faceshot} alt={'Howard Yen'} width='200px' height='200px'/>
-                    <h1> Howard Yen</h1>
+                    <h1 style={{'margin-bottom': '0'}}> Howard Yen</h1>
+                    <p style={{'width': '50%', 'text-align':'center'}}>A passionate coder interested in creating various projects!</p>
                 </header>
                 <Menu
                     handlePageChange={this.props.handlePageChange}

@@ -16,15 +16,27 @@
     position:relative;
     width: 90%;
     padding: 5%;
+    /* height: 30%; */
     display: grid;
     place-items: center;
 }
 
 .menu{
-    position: absolute;
+    display: grid;
+    place-items: center;
+    position: relative;
     width: 90%;
     padding: 5%;
     right: 0%;
+}
+
+.MenuButton{
+    font-size: 200%;
+    margin: 2%;
+    border: none;
+    outline: none;
+    color: black;
+    text-decoration: none;
 }
 
 footer{
@@ -32,12 +44,4 @@ footer{
     width: 90%;
     bottom: 0;
     padding: 5%;
-}
-
-.MenuButton{
-    font-size: 200%;
-    border: none;
-    outline: none;
-    color: black;
-    text-decoration: none;
 }
