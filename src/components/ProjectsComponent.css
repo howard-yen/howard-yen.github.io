@@ -20,7 +20,10 @@
     box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.3);
     transition: box-shadow 0.5s;
     will-change: transform;
-    border: 15px solid white;
+    border: 1em solid white;
+    border-bottom-width: 0.5em;
+    display:grid;
+    place-items: center;
 }
 
 .Card:hover{
@@ -33,4 +36,9 @@
     outline: none;
     color: black;
     text-decoration: none;
+}
+
+.Icon{
+    margin-left: auto;
+    margin-right: auto;
 }
