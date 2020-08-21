@@ -1,6 +1,7 @@
 import React from 'react';
 import Left from './components/Left';
 import ProjectsComponent from './components/ProjectsComponent';
+import AboutComponent from './components/AboutComponent';
 
 import ReactPageScroller from "react-page-scroller";
 
@@ -26,11 +27,11 @@ class Right extends React.Component{
         return(
             <div className="Split Right">
                 <ReactPageScroller
-                    className="Split Right"
+                    containerWidth="100%"
                     pageOnChange={this.props.pageOnChange}
                     customPageNumber={this.props.customPageNumber}
                 >
-                    <Block name="about" content="this is about me" />
+                    <AboutComponent/>
                     {/* <Block name="projects" content="this is about my projects"/> */}
                     <ProjectsComponent className="Component"/>
                     <Block name="timeline" content="timeline about experiences here"/>

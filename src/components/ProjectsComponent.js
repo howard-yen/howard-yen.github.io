@@ -12,10 +12,7 @@ import {ReactComponent as Clock} from '../images/clock.svg';
 import {ReactComponent as Photo} from '../images/photo.svg';
 import {ReactComponent as Chess} from '../images/chess.svg';
 import {ReactComponent as Compressed} from '../images/compressed.svg';
-
-// const calc = (x, y) => [-(y - window.innerHeight / 2) / 100, (x - window.innerWidth /2) /100, 1.1];
-// const trans = (x,y,s) => `perspective(600px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`;
-const trans = (x,y,s) => `perspective(600px) scale(${s})`;
+import {ReactComponent as Pawn} from '../images/pawn.svg';
 
 const iconsize = '5em';
 const icons = {
@@ -50,9 +47,16 @@ const icons = {
     "Compressed":[
         <Compressed className="Icon" style={{"fill": "#a0c4ff"}}/>,
         "#a0c4ff"
+    ],
+    "Pawn":[
+        <Pawn className="Icon" style={{"stroke": "#fff1e6"}}/>,
+        "#fff1e6"
     ]
 }
 
+// const calc = (x, y) => [-(y - window.innerHeight / 2) / 100, (x - window.innerWidth /2) /100, 1.1];
+// const trans = (x,y,s) => `perspective(600px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`;
+const trans = (x,y,s) => `perspective(1000px) scale(${s})`;
 function Card(props) {
     const [p, set] = useSpring(() => (
         {xys: [0,0,1],
@@ -75,7 +79,7 @@ function Card(props) {
             <animated.div
                 className="Card"
                 // onMouseMove={({clientX: x, clientY: y}) => set({xys: calc(x, y)})}
-                onMouseMove={() => set({xys: [0,0,1.1]})}
+                onMouseMove={() => set({xys: [0,0,1.05]})}
                 onMouseLeave={() => set({xys: [0,0,1]})}
                 style={{transform:p.xys.interpolate(trans), "border-bottom-color":icons[props.project.icon][1], }}
             >
@@ -95,32 +99,7 @@ export default class Projects extends React.Component{
     constructor(props){
         super(props);
         this.state={
-            projects:[
-                {
-                    url: "https://howard-yen.github.io/mangadex-download/",
-                    icon: "Idea",
-                    title: "mangadex-download",
-                    description:"Utilized the requests, lxml, PIL, and smtplib Python libraries that uses browser cookies to search for specific titles, download a selection of the chapters as pdf files, and email them to the user."
-                },
-                {
-                    url: "https://github.com/archen2019/pdfsummary",
-                    icon: "Agenda",
-                    title: "pdfsummary",
-                    description:"Developed Python script for HackPrinceton 2019 that uses computer vision and machine learning algorithms to summarize a pdf file and find the key words in the content."
-                },
-                {
-                    url: "https://github.com/archen2019/terminal-ai",
-                    icon: "Terminal",
-                    title: "terminal-ai",
-                    description:"Algorithm that acts as a player in the game Terminal Live and employ offensive and defensive strategies against other players.\n Results: 2nd Place at Terminal Live 2020 Princeton vs. Penn"
-                },
-                {
-                    url: "https://github.com/howard-yen/mergepdf",
-                    icon: "Book",
-                    title: "mergepdf",
-                    description:"A simple Python script that merges all the pdf files in a given directory into one pdf file."
-                },
-            ],
+
         };
     }
 
