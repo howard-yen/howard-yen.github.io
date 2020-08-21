@@ -1,6 +1,5 @@
 import React from 'react';
 import './ProjectsComponent.css';
-import {Spring, config} from 'react-spring/renderprops';
 import {useSpring, animated} from 'react-spring'
 
 import projectInfo from "./Projects.json";
@@ -14,7 +13,6 @@ import {ReactComponent as Chess} from '../images/chess.svg';
 import {ReactComponent as Compressed} from '../images/compressed.svg';
 import {ReactComponent as Pawn} from '../images/pawn.svg';
 
-const iconsize = '5em';
 const icons = {
     "Idea": [
         <Idea className="Icon" style={{"stroke": "#9bf6ff"}} />,
