@@ -38,7 +38,7 @@ export default class TimelineComponent extends React.Component{
                     iconOnClick={() => window.open(info["link"], "_blank")}
                     onTimelineElementClick={() => window.open(info["link"], "_blank")}
                 >
-                    <h3 className="vertical-timeline-element-title">{info["company"]}</h3>
+                    <h3 className="vertical-timeline-element-title">{info["title"]}</h3>
                     <h4 className="vertical-timeline-element-subtitle">{info["position"]}</h4>
                     <h4 className="vertical-timeline-element-subtitle">{info["location"]}</h4>
                     <ul>
