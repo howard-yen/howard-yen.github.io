@@ -6,7 +6,6 @@ import TimelineComponent from './components/TimelineComponent';
 
 import RightComponent from './components/Right';
 
-import ReactPageScroller from "react-page-scroller";
 import {Parallax, ParallaxLayer} from 'react-spring/renderprops-addons';
 
 import './App.css';

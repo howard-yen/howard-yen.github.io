@@ -24,12 +24,12 @@ const icons = {
         "#ffd6a5"
     ],
     "Terminal":[
-        <Terminal className="Icon" style={{"stroke": "#495057"}} />,
-        "#495057"
+        <Terminal className="Icon" style={{"stroke": "#000000"}} />,
+        "#000000"
     ],
     "Book":[
-        <Book className="Icon" style={{"fill": "#caffbf"}} />,
-        "#caffbf"
+        <Book className="Icon" style={{"fill": "#A1DBB2"}} />,
+        "#A1DBB2"
     ],
     "Clock":[
         <Clock className="Icon" style={{"fill": "#ffc6ff"}}/>,
@@ -40,8 +40,8 @@ const icons = {
         "#ffadad"
     ],
     "Chess":[
-        <Chess className="Icon" style={{"fill": "#000000"}}/>,
-        "#000000"
+        <Chess className="Icon" style={{"fill": "#BDB2FF"}}/>,
+        "#BDB2FF"
     ],
     "Compressed":[
         <Compressed className="Icon" style={{"fill": "#a0c4ff"}}/>,
@@ -52,8 +52,8 @@ const icons = {
         "#fff1e6"
     ],
     "Download":[
-        <Download className="Icon" style={{"fill": "#9bf6ff"}}/>,
-        "#9bf6ff"
+        <Download className="Icon" style={{"stroke": "#B1E5F2"}}/>,
+        "#B1E5F2"
     ]
 }
 

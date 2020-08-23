@@ -4,6 +4,7 @@ import './Right.css';
 import AboutComponent from './AboutComponent';
 import ProjectsComponent from './ProjectsComponent';
 import TimelineComponent from './TimelineComponent';
+import ContactsComponent from './ContactsComponent';
 
 export default class Right extends React.Component{
     constructor(props){
@@ -21,7 +22,7 @@ export default class Right extends React.Component{
     render(){
         return(
             <div
-                className="Split Right" 
+                className="Split Right"
                 // onScroll={() => this.handleScroll()}
             >
                 <scroll-container className="Scroller">
@@ -41,15 +42,7 @@ export default class Right extends React.Component{
                     </scroll-page>
 
                     <scroll-page id="Contacts" className="Page">
-                        <div>
-                            <h2>
-                                Contacts
-                            </h2>
-                            <p>
-                                You find find me here
-                            </p>
-                        </div>
-
+                        <ContactsComponent/>
                     </scroll-page>
                 </scroll-container>
             </div>

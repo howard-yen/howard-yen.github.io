@@ -29,8 +29,6 @@ export default class TimelineComponent extends React.Component{
 
         for(let t in timelineInfo){
             let info = timelineInfo[t];
-            let l = info["link"];
-
             let descriptions = info["description"].map((d) => <li>{d}</li>);
 
             timeline.push(
@@ -61,7 +59,7 @@ export default class TimelineComponent extends React.Component{
         const timeline = this.makeTimeline();
 
         return(
-            <div className = "Timeline">
+            <div className="Timeline">
                 <h2 style={{'font-size': '300%'}}>
                     Timeline
                 </h2>

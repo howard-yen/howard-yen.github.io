@@ -2,6 +2,8 @@ import React from 'react';
 import {Transition, animated} from 'react-spring/renderprops';
 import './AboutComponent.css';
 
+
+
 export default class About extends React.Component{
     constructor(props){
         super(props);
@@ -35,9 +37,9 @@ export default class About extends React.Component{
                                 </a>!)
                             </p>
                             <p style={{"text-indent": "1em"}}>
-                                Natural language processing and computer vision are fields that I would like to conduct reserach in in the future.
+                                Natural language processing and computer vision are fields that I would like to conduct research in in the future.
                             </p>
-                            <p style={{"text-indent": "1em"}}>Outside of class, I serve as the Careers Chair on Princeton ACM and I'm also an avid reader (currently reading 86 by Asato Asato) and badminton player.</p>
+                            <p style={{"text-indent": "1em"}}>Outside of class, I serve as the Careers Chair on Princeton ACM, and I'm also an avid reader (currently reading 86 by Asato Asato) and badminton player.</p>
                         </animated.div>)
                     }
                 </Transition>

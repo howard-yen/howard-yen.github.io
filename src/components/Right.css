@@ -5,8 +5,9 @@
 }
 
 .Right{
+    width: 70vw;
     scroll-behavior: smooth;
-    background-color: #f5f1da;
+    background-color: #f8f4e4;
     position: absolute;
     right: 0;
     display: flex;
@@ -18,5 +19,4 @@
     width: 100%;
 
     height: auto;
-
 }

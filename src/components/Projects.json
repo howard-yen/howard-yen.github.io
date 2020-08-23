@@ -3,7 +3,7 @@
         "title": "mangadex-download",
         "url": "https://howard-yen.github.io/mangadex-download/",
         "icon": "Download",
-        "description": "A project born out of my love for reading and manga. I utilized the requests, lxml, PIL, and smtplib Python libraries to scrape the website mangadex.org for images. Functionality include using browser cookies bypass login requirements on the website to search for specific titles, download a selection of the chapters as pdf files by first scraping individual images of each chapter, and email the files to the user.",
+        "description": "A project born out of my love for reading and manga. I utilized the requests, lxml, PIL, and smtplib Python libraries to scrape the website mangadex.org for images. Functionality include using browser cookies bypass login requirements on the website to search for specific titles, downloading a selection of the chapters as pdf files by first scraping individual images of each chapter, and emailing the files to the user.",
         "others": {
 
         }
@@ -21,7 +21,7 @@
         "title": "terminal-ai",
         "url": "https://github.com/archen2019/terminal-ai",
         "icon": "Chess",
-        "description": "Terminal AI is an online game where two algorithms face off against each other in a tower-defense-like game, where each player can deploy a variety of attacking units and defensive towers. In a team of three, we coded offensive and defensive algorithms in Python to compete against other algorithms.",
+        "description": "Terminal AI is an online game where two algorithms face off against each other in a tower-defense-like game where each player can deploy a variety of attacking units and defensive towers. In a team of three, we coded offensive and defensive algorithms in Python to compete against other algorithms.",
         "others": {
             "Award": "Second Place at Citadel Terminal Live 2020 Princeton vs. Penn"
         }
@@ -41,7 +41,7 @@
         "icon": "Photo",
         "description": "An assignment for the class COS226: Algorithms and Data Structures. The goal was to implement shortest path algorithms in Java to find the horizontal/vertical path in a photo that has the least energy changes, where the weight of the edges are the square differences between the rgb values of each pixel. We initially implemented Dijkstra's algorithm then optimized it with topological sort.",
         "others":{
-            "Note": "Code not avaiable publicly due to class policies but avaiable upon request"
+            "Note": "Code not available publicly due to class policies but available upon request"
         }
     },
     "Burrows-Wheeler":{
@@ -50,7 +50,7 @@
         "icon": "Compressed",
         "description": "An assignment for the class COS226: Algorithms and Data Structures. This is an implementation of the Burrows-Wheeler data compression algorithm in Java. This consisted of Burrows-Wheeler Transform and move-to-front encoding. To do this efficiently, I used most significant digit sort to construct a circular array which contains optimized references to the original string that is to be compressed.",
         "others":{
-            "Note": "Code not avaiable publicly due to class policies but avaiable upon request"
+            "Note": "Code not available publicly due to class policies but available upon request"
         }
     },
     "Unix Shell":{
@@ -59,7 +59,7 @@
         "icon": "Terminal",
         "description": "An assignment for the class COS217: Introduction to Programming Systems. My partner and I designed a basic Unix Shell in C. This contains a lexical analyzer and a syntactic analyzer which parse the input command and determine if they are valid, and also handling for internal and external commands, input/output redirections, and signals.",
         "others":{
-            "Note": "Code not avaiable publicly due to class policies but avaiable upon request"
+            "Note": "Code not available publicly due to class policies but available upon request"
         }
     },
     "mergepdf":{
