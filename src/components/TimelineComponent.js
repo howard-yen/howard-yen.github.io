@@ -6,14 +6,20 @@ import 'react-vertical-timeline-component/style.min.css';
 import timelineInfo from './Timeline.json';
 import {ReactComponent as MMC} from '../images/mmc.svg';
 import {ReactComponent as Princeton} from '../images/princeton.svg';
-
-
+import {ReactComponent as ACM} from '../images/acm.svg';
+import {ReactComponent as PSHS} from '../images/pshs.svg';
 const icons ={
     "MMC":[
         <MMC />
     ],
     "Princeton":[
         <Princeton/>
+    ],
+    "ACM":[
+        <ACM/>
+    ],
+    "PSHS":[
+        <PSHS/>
     ],
 }
 

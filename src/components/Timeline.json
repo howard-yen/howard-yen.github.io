@@ -14,7 +14,7 @@
     },
     "PrincetonCOS226":{
         "title": "Princeton University Computer Science Department",
-        "date": "Spring Semester 2020",
+        "date": "Spring 2020",
         "position": "COS 226: Algorithms and Data Structures Grader",
         "location": "Princeton, New Jersey",
         "icon": "Princeton",
@@ -22,6 +22,20 @@
         "description":[
             "Grades the coding assignments for the class COS 226: Algorithms and Data Structures",
             "Analyze students’ codes for their efficiency, style, and clarity, and provide feedback by teaching them good coding practices and more efficient implementations of algorithms and data structures like Binary Search and Deque"
+        ]
+    },
+    "PrincetonACM":{
+        "title": "Princeton Association for Computing Machinery(ACM)",
+        "date": "Spring 2020 - Present",
+        "position": "Careers Chair",
+        "location": "Princeton, New Jersey",
+        "icon": "ACM",
+        "link": "http://princetonacm.com/",
+        "description":[
+            "Collaborate with companies like RippleMatch and Exponent to deliver talks on career in STEM fields and technical topics",
+            "Practice critical thinking skills, algorithm optimization, and data structure implementation through competitions",
+                "Participate in coding workshops to improve mastery in Java and C++",
+                "Compile career resources for members to help them prepare for technical interviews"
         ]
     },
     "Princeton":{
@@ -48,6 +62,19 @@
             "Worked full-time in a team of 6 to develop educational software using python to implement Natural Language Processing (e.g. Stanford CoreNLP, spacy, and NLTK) and Bayesian Knowledge Tracing",
             "Organize test materials, teaching books,  and other documents using Word, Excel, and PowerPoint",
             "Software launched in over 100 schools across China in the 2019-2020 school year"
+        ]
+    },
+    "PlanoSenior":{
+        "title": "Plano Senior High School",
+        "date": "2015 - 2019",
+        "position": "Student",
+        "location": "Plano, Texas",
+        "icon": "PSHS",
+        "link": "https://www.youtube.com/watch?v=EJ2y_8eq0hI",
+        "description":[
+            "Achivements: Valedictorian, USA Computing Olympiad Gold Division Finalist, 1st place in Microbiology at Texas Junior Academy of Science, Honorable Mention in Bioinformatics at Dallas Regional Science and Engineering Fair, 4th in Java Programming at BPA Nationals, 1st in C++ Programming at BPA State, 2nd at Computer Science UIL Regionals, National AP Scholars",
+            "Coursework: AP Calculus BC(5), AP Statistics(5), AP Physics C: Mechanics(5), AP Physics C: Electricity and Magnetism(5), AP Macroeconomics(5), AP Microeconomics(5)",
+            "Extracurriculars: Mu Alpha Theta Co-President, Key Club President, Chess Club President, Junior State of America President and State Senator"
         ]
     }
 }
