@@ -12,6 +12,7 @@ import {ReactComponent as Photo} from '../images/photo.svg';
 import {ReactComponent as Chess} from '../images/chess.svg';
 import {ReactComponent as Compressed} from '../images/compressed.svg';
 import {ReactComponent as Pawn} from '../images/pawn.svg';
+import {ReactComponent as Download} from '../images/download.svg';
 
 const icons = {
     "Idea": [
@@ -49,6 +50,10 @@ const icons = {
     "Pawn":[
         <Pawn className="Icon" style={{"stroke": "#fff1e6"}}/>,
         "#fff1e6"
+    ],
+    "Download":[
+        <Download className="Icon" style={{"fill": "#9bf6ff"}}/>,
+        "#9bf6ff"
     ]
 }
 
@@ -63,7 +68,7 @@ function Card(props) {
 
     var text = [];
     for(let o in props.project.others){
-        text.push(<p>{o}: {props.project.others[o]}</p>)
+        text.push(<p key={o}>{o}: {props.project.others[o]}</p>)
     }
 
     return(

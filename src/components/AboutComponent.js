@@ -29,8 +29,15 @@ export default class About extends React.Component{
                             className="AboutText"
                         >
                             <h2>Hi I'm Howard!</h2>
-                            <p style={{"text-indent": "1em"}}>I am a sophomore studying Computer Science at Princeton University. I love creating apps and projects as well as learning the fields of computer science.</p>
-                            <p style={{"text-indent": "1em"}}>Outside of class, I serve as the careers chair on Princeton ACM and I'm also an avid reader and badminton player.</p>
+                            <p style={{"text-indent": "1em"}}>I am a sophomore studying Computer Science at Princeton University, and I love creating apps and projects (check them out on my&nbsp;
+                                <a href="https://github.com/howard-yen/" title="github" target="_blank" rel="noopener noreferrer">
+                                    github
+                                </a>!)
+                            </p>
+                            <p style={{"text-indent": "1em"}}>
+                                Natural language processing and computer vision are fields that I would like to conduct reserach in in the future.
+                            </p>
+                            <p style={{"text-indent": "1em"}}>Outside of class, I serve as the Careers Chair on Princeton ACM and I'm also an avid reader (currently reading 86 by Asato Asato) and badminton player.</p>
                         </animated.div>)
                     }
                 </Transition>

@@ -1,0 +1,53 @@
+{
+    "MMC":{
+        "title": "Map My Customers",
+        "date": "June - August 2020",
+        "position": "Machin Learning Intern",
+        "location": "New York, New York(Remote)",
+        "icon": "MMC",
+        "link": "https://mapmycustomers.me/",
+        "description": [
+            "Worked full-time remotely on the product team to analyze the data collected on the web app and the mobile app",
+            "Compiled metrics from the PostgresSQL database and developed PCA and SVM statistical models to predict if users will buy a subscription based on their usage during free trial period",
+            "Analyzed geopoints recorded by the mobile app to develop a model that predicts a user’s home/office locations and connected the model to OpenStreetMaps API to obtain their addresses"
+        ]
+    },
+    "PrincetonCOS226":{
+        "title": "Princeton University Computer Science Department",
+        "date": "Spring Semester 2020",
+        "position": "COS 226: Algorithms and Data Structures Grader",
+        "location": "Princeton, New Jersey",
+        "icon": "Princeton",
+        "link": "https://www.cs.princeton.edu/courses/archive/fall20/cos226/",
+        "description":[
+            "Grades the coding assignments for the class COS 226: Algorithms and Data Structures",
+            "Analyze students’ codes for their efficiency, style, and clarity, and provide feedback by teaching them good coding practices and more efficient implementations of algorithms and data structures like Binary Search and Deque"
+        ]
+    },
+    "Princeton":{
+        "title": "Princeton University",
+        "date": "Expected June 2023",
+        "position": "Bachelor's in B.S.E. Computer Science",
+        "location": "Princeton, New Jersey",
+        "icon": "Princeton",
+        "link": "https://www.cs.princeton.edu/",
+        "description":[
+            "Intended certificates in Robotics and Intelligent System and Statistics and Machine Learning",
+            "Coursework: Algorithms and Data Structures, Introduction to Programming Systems, Operating Systems, Functional Programming, Computer Vision",
+            "Awards: 2nd Place at Citadel Terminal Live Princeton vs. Penn"
+        ]
+    },
+    "HappyHarvest":{
+        "title": "Happy Harvest",
+        "date": "June - July 2019",
+        "position": "Intern",
+        "location": "Shanghai, China",
+        "icon": "MMC",
+        "link": "http://www.famens.com/gqxx/xuehuiyuan-64814-83017037980.html",
+        "description":[
+            "Worked full-time in a team of 6 to develop educational software using python to implement Natural Language Processing (e.g. Stanford CoreNLP, spacy, and NLTK) and Bayesian Knowledge Tracing",
+            "Organize test materials, teaching books,  and other documents using Word, Excel, and PowerPoint",
+            "Software launched in over 100 schools across China in the 2019-2020 school year"
+        ]
+    }
+}

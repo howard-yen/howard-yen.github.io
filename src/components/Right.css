@@ -1,0 +1,22 @@
+.Split{
+    height: 100vh;
+    z-index: 1;
+    top: 0;
+}
+
+.Right{
+    scroll-behavior: smooth;
+    background-color: #f5f1da;
+    position: absolute;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.Page{
+    position: relative;
+    width: 100%;
+
+    height: auto;
+
+}

@@ -1,16 +1,18 @@
 .Split{
     height: 100vh;
-    position: fixed;
     z-index: 1;
     top: 0;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .Right{
+    position: absolute;
     width: 70vw;
     right: 0;
     /* background-color: #B7E9F7; */
     background-color: #f5f1da;
+    display: flex;
+    flex-direction: column;
 }
 
 .flex-column{
@@ -20,8 +22,8 @@
 }
 
 .Block{
-    position: relative;
+    position: absolute;
     width: 100%;
-    height: auto;
+    height: 1000vh;
     /* display: flex; */
 }

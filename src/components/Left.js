@@ -22,14 +22,30 @@ class Menu extends React.Component{
 
         return [...buttons];
     }
+    getA = (pages, currentPages) =>{
+        const buttons =[];
+        for(let i = 0; i < pages.length; i++){
+            let name = "#" + pages[i];
+            buttons.push(
+                <a className="MenuButton" href={name} key={pages[i]}>
+                    {pages[i]}
+                </a>
+            );
+        }
+
+        return [...buttons];
+    }
 
     render(){
-        const buttons = this.getButtons(this.props.pages, this.props.currentPage);
+        // const buttons = this.getButtons(this.props.pages, this.props.currentPage);
+        const buttons = this.getA(this.props.pages, this.props.currentPage);
 
         return(
-            <Nav defaultActiveKey={this.props.currentPage}
+            <Nav
+                defaultActiveKey={this.props.currentPage}
                 onSelect={this.props.handlePageChange}
-            className="menu flex-column">
+                className="menu flex-column"
+            >
                 {buttons}
             </Nav>
         );
