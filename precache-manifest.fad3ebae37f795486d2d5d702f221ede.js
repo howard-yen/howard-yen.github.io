@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8e33fbcfbc0a9ac9c111519a2293226e",
+    "revision": "740376d35fe7f02eb17d57535a6f5462",
     "url": "/index.html"
   },
   {
-    "revision": "872af099faf402f1d2be",
-    "url": "/static/css/main.406badc2.chunk.css"
+    "revision": "7a1cb7db41f5f868eead",
+    "url": "/static/css/2.ac1ab58b.chunk.css"
   },
   {
-    "revision": "436a54d9f8580b333d47",
-    "url": "/static/js/2.82302cb5.chunk.js"
+    "revision": "012951abc2d1ecd6312f",
+    "url": "/static/css/main.896fa76b.chunk.css"
+  },
+  {
+    "revision": "7a1cb7db41f5f868eead",
+    "url": "/static/js/2.c96ff9c2.chunk.js"
   },
   {
     "revision": "c836aaadfe43dfd9fcb8ddeddfd61e18",
-    "url": "/static/js/2.82302cb5.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.c96ff9c2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "872af099faf402f1d2be",
-    "url": "/static/js/main.1be69ee8.chunk.js"
+    "revision": "012951abc2d1ecd6312f",
+    "url": "/static/js/main.b03ab805.chunk.js"
   },
   {
     "revision": "6981919806c089cef906",
@@ -36,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/book.bccfd4e8.svg"
   },
   {
-    "revision": "7377cb03833a86b80aa474d0d4341245",
-    "url": "/static/media/chess.7377cb03.svg"
+    "revision": "1651666cc4fd3c0a0382e9b003cd473c",
+    "url": "/static/media/chess.1651666c.svg"
   },
   {
     "revision": "42e7d0966e0c207badb181a6690d77f3",
@@ -46,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d7f5352ede08f13f0e13c091f1ba8169",
     "url": "/static/media/compressed.d7f5352e.svg"
+  },
+  {
+    "revision": "bfde12bac1f0bf41f838e06c6b5d6d7b",
+    "url": "/static/media/download.bfde12ba.svg"
   },
   {
     "revision": "ab95adb7c0da395456fe6b45d7dbff90",
@@ -64,12 +72,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/linkedinlogo.b028c2e5.png"
   },
   {
-    "revision": "e730685c7e39a2755c4f14b3ee549eb1",
-    "url": "/static/media/pawn.e730685c.svg"
+    "revision": "3ae2d70ab227bf97206292f175846135",
+    "url": "/static/media/mmc.3ae2d70a.svg"
+  },
+  {
+    "revision": "ff1df9727e1f7a27d3e9d99e6b2415ac",
+    "url": "/static/media/pawn.ff1df972.svg"
   },
   {
     "revision": "2d4072c9b0399ab8c10ae157f3899d23",
     "url": "/static/media/photo.2d4072c9.svg"
+  },
+  {
+    "revision": "d31385145fb6e0c5971e228f43645875",
+    "url": "/static/media/princeton.d3138514.svg"
   },
   {
     "revision": "42a29977e5e4a69ad4b9f538546d872e",
