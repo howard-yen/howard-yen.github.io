@@ -1,0 +1,10 @@
+<svg width="66" height="35" viewBox="0 0 66 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.5 2.5L22.5 4.5L31.5 11.5L41.5 16.5M41.5 16.5L40.5 27.5L59.5 33.5L64.5 22.5L41.5 16.5Z" stroke="white"/>
+<circle r="1.5" transform="matrix(1 0 0 -1 31.5 11.5)" fill="white"/>
+<circle r="1.5" transform="matrix(1 0 0 -1 41.5 16.5)" fill="white"/>
+<circle r="1.5" transform="matrix(1 0 0 -1 40.5 27.5)" fill="white"/>
+<circle r="1.5" transform="matrix(1 0 0 -1 59.5 33.5)" fill="white"/>
+<circle r="1.5" transform="matrix(1 0 0 -1 64.5 22.5)" fill="white"/>
+<circle r="1.5" transform="matrix(1 0 0 -1 22.5 4.5)" fill="white"/>
+<circle r="2.5" transform="matrix(1 0 0 -1 2.5 2.5)" fill="white"/>
+</svg>

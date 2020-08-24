@@ -1,0 +1,153 @@
+{
+    "Princeton Pals":{
+        "Photos":[
+            {
+                "file": "Stonks2.jpg",
+                "offset": 0.5,
+                "left": "60%",
+                "width": "30%",
+                "speed": -0.1
+            },
+            {
+                "file": "Stonks1.jpg",
+                "offset": 0.2,
+                "left": "10%",
+                "width": "50%",
+                "speed": 0
+            }
+        ],
+        "Text":[
+            {
+                "text": "Princeton Pals",
+                "size": "2em",
+                "offset": 0.3,
+                "left": "70%",
+                "speed": -0.1
+            }
+        ],
+        "Others":[
+            {
+                "file": "moon.svg",
+                "offset": 0.1,
+                "left": "70%",
+                "width": "10%",
+                "speed": -0.1
+            },
+            {
+                "file": "tarurus.svg",
+                "offset": 0.8,
+                "left": "10%",
+                "width": "5%",
+                "speed": 0.1
+            }
+        ]
+    },
+    "The Museum of Illusions":{
+        "Photos":[
+            {
+                "file": "Jessie1.png",
+                "offset": 0.2,
+                "left": "20%",
+                "width": "60%",
+                "speed": 0
+            }
+        ],
+        "Text":[
+            {
+                "text": "The Museum of Illusions",
+                "size": "2em",
+                "offset": 0,
+                "left": "30%",
+                "speed": -0.1
+            }
+        ],
+        "Others":[
+            {
+                "file": "aries.svg",
+                "offset": 0.3,
+                "left": "5%",
+                "width": "8%",
+                "speed": -0.2
+            },
+            {
+                "file": "sagittarius.svg",
+                "offset": 0.6,
+                "left": "85%",
+                "width": "12%",
+                "speed": -0.1
+            }
+        ]
+    },
+    "Skate Night":{
+        "Photos":[
+            {
+                "file": "Skate2.png",
+                "offset": 0.1,
+                "left": "50%",
+                "width": "40%",
+                "speed": -0.1
+            },
+            {
+                "file": "Skate1.png",
+                "offset": 0.3,
+                "left": "10%",
+                "width": "40%",
+                "speed": 0
+            }
+        ],
+        "Text":[
+            {
+                "text": "Skate Night",
+                "size": "2em",
+                "offset": 0.8,
+                "left": "60%",
+                "speed": 0.1
+            }
+        ],
+        "Others":[
+            {
+                "file": "bigdipper.svg",
+                "offset": 0.2,
+                "left": "20%",
+                "width": "10%",
+                "speed": -0.05
+            }
+        ]
+    },
+    "Freshmen Sophomore Winter Social":{
+        "Photos":[
+            {
+                "file": "Formal2.png",
+                "offset": 0,
+                "left": "50%",
+                "width": "40%",
+                "speed": 0.2
+            },
+            {
+                "file": "Formal1.png",
+                "offset": 0.3,
+                "left": "10%",
+                "width": "50%",
+                "speed": 0
+            }
+        ],
+        "Text":[
+            {
+                "text": "Freshmen Sophomore Winter Social",
+                "size": "2em",
+                "offset": 0.5,
+                "left": "70%",
+                "speed": 0.2
+            }
+        ],
+        "Others":[
+            {
+                "file": "cancer.svg",
+                "offset": 0.7,
+                "left": "80%",
+                "width": "5%",
+                "speed": 0.1
+            }
+        ]
+    }
+}

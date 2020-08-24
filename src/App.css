@@ -11,9 +11,12 @@
     text-align: right;
 }
 
-.Block{
-    position: absolute;
-    width: 100%;
-    height: 1000vh;
-    /* display: flex; */
+.Right{
+    background-color: #BBD8F1;
+    color: black;
+}
+
+.Left{
+    background-color: #00303F;
+    color: white;
 }

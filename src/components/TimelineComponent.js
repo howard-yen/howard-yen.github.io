@@ -9,18 +9,10 @@ import {ReactComponent as Princeton} from '../images/princeton.svg';
 import {ReactComponent as ACM} from '../images/acm.svg';
 import {ReactComponent as PSHS} from '../images/pshs.svg';
 const icons ={
-    "MMC":[
-        <MMC />
-    ],
-    "Princeton":[
-        <Princeton/>
-    ],
-    "ACM":[
-        <ACM/>
-    ],
-    "PSHS":[
-        <PSHS/>
-    ],
+    "MMC": <MMC />,
+    "Princeton": <Princeton/>,
+    "ACM": <ACM/>,
+    "PSHS": <PSHS/>,
 }
 
 export default class TimelineComponent extends React.Component{
@@ -29,7 +21,7 @@ export default class TimelineComponent extends React.Component{
 
         for(let t in timelineInfo){
             let info = timelineInfo[t];
-            let descriptions = info["description"].map((d) => <li>{d}</li>);
+            let descriptions = info["description"].map((d) => <li key={d}>{d}</li>);
 
             timeline.push(
                 <VerticalTimelineElement
@@ -41,6 +33,7 @@ export default class TimelineComponent extends React.Component{
                     icon={icons[info["icon"]]}
                     iconOnClick={() => window.open(info["link"], "_blank")}
                     onTimelineElementClick={() => window.open(info["link"], "_blank")}
+                    key={t}
                 >
                     <h3 className="vertical-timeline-element-title">{info["title"]}</h3>
                     <h4 className="vertical-timeline-element-subtitle">{info["position"]}</h4>

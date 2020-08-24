@@ -9,7 +9,6 @@
     position: fixed;
     width: 30%;
     left: 0;
-    background-color: #e3dfc8;
 }
 
 .Left-header{
@@ -35,8 +34,8 @@
     margin: 2%;
     border: none;
     outline: none;
-    color: black;
     text-decoration: none;
+    color: inherit;
 }
 
 /* .MenuButton:hover{

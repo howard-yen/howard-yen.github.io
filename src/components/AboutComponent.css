@@ -16,7 +16,8 @@
     left: 15vw;
     top: 30vh;
 
-    background: white;
+    background-color: white;
+    color: black;
     /* color: white; */
     /* transition: all 0.3 ease-out; */
     opacity: 1;

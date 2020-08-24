@@ -1,22 +1,20 @@
 import React from 'react';
-import githubmark from '../images/githubmark.png';
-import linkedinlogo from '../images/linkedinlogo.png';
-import emailicon from '../images/emailicon.png';
-
+import socialmedias from './SocialMedia.json';
 import './SocialMediaBubbles.css';
 
+const path = (name) => '/SocialMedia/' + name;
 class LinkBubble extends React.Component{
     render(){
         return(
                 <a className="Bubble"
-                    href={this.props.bubble.url}
-                    title={this.props.bubble.name}
+                    href={this.props.url}
+                    title={this.props.name}
                     target="_blank"
                     rel="noopener noreferrer"
                 >
                     <img
-                        src={this.props.bubble.image}
-                        alt={this.props.bubble.name}
+                        src={path(this.props.image)}
+                        alt={this.props.name}
                         width="25"
                         height="25"
                     />
@@ -26,22 +24,12 @@ class LinkBubble extends React.Component{
 }
 
 export default class BubbleRow extends React.Component{
-    constructor(props){
-        super(props);
-        this.state={
-            bubbles:[
-                {url: "https://github.com/howard-yen/", image: githubmark, name: "github",},
-                {url: "https://www.linkedin.com/in/howard-yen/", image: linkedinlogo, name: "linkedin",},
-                {url: "mailto:hyen@princeton.edu", image: emailicon, name: "email",}
-            ],
-        };
-    }
-
     makeBubbles = () =>{
         const bubbles = [];
 
-        for(let b of this.state.bubbles){
-            bubbles.push(<LinkBubble key={b.name} bubble={b}/>);
+        for(let b in socialmedias){
+            let info = socialmedias[b];
+            bubbles.push(<LinkBubble key={b} name={b} image={info["image"]} url={info["url"]}/>);
         }
         return [...bubbles];
     };

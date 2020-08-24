@@ -1,0 +1,14 @@
+{
+    "github":{
+        "url": "https://github.com/howard-yen/",
+        "image": "githubmarkwhite.png"
+    },
+    "linkedin":{
+        "url": "https://www.linkedin.com/in/howard-yen/",
+        "image": "linkedinlogowhite.png"
+    },
+    "email":{
+        "url": "mailto:hyen@princeton.edu",
+        "image": "emailiconwhite.png"
+    }
+}

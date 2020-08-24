@@ -7,7 +7,6 @@
 .Right{
     width: 70vw;
     scroll-behavior: smooth;
-    background-color: #f8f4e4;
     position: absolute;
     right: 0;
     display: flex;
@@ -17,6 +16,5 @@
 .Page{
     position: relative;
     width: 100%;
-
     height: auto;
 }

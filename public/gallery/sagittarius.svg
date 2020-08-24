@@ -1,0 +1,15 @@
+<svg width="62" height="44" viewBox="0 0 62 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.5 2.5L7.5 10.5L15.5 25.5M15.5 25.5L1 31.5L6 42M15.5 25.5L25.5 27.5L45 13M45 13L49.5 1.5M45 13L50.5 23.5M50.5 23.5L49.5 36.5L53.5 42.5M50.5 23.5L60.5 25.5" stroke="white"/>
+<circle cx="15.5" cy="25.5" r="2.5" fill="white"/>
+<circle cx="60.5" cy="25.5" r="1.5" fill="white"/>
+<circle cx="49.5" cy="36.5" r="2.5" fill="white"/>
+<circle cx="53.5" cy="42.5" r="1.5" fill="white"/>
+<circle cx="50.5" cy="23.5" r="1.5" fill="white"/>
+<circle cx="45" cy="13" r="2" fill="white"/>
+<circle cx="49.5" cy="1.5" r="1.5" fill="white"/>
+<circle cx="25.5" cy="27.5" r="1.5" fill="white"/>
+<circle cx="7.5" cy="10.5" r="1.5" fill="white"/>
+<circle cx="13.5" cy="2.5" r="1.5" fill="white"/>
+<circle cx="6" cy="42" r="2" fill="white"/>
+<circle cx="1.5" cy="31.5" r="1.5" fill="white"/>
+</svg>
