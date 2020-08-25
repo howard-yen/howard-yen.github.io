@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.0cc3f675.chunk.css",
-    "main.js": "/static/js/main.3e3e5e9f.chunk.js",
-    "main.js.map": "/static/js/main.3e3e5e9f.chunk.js.map",
+    "main.css": "/static/css/main.feedaaa0.chunk.css",
+    "main.js": "/static/js/main.e425d0ed.chunk.js",
+    "main.js.map": "/static/js/main.e425d0ed.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.bfca2edd.js",
     "runtime-main.js.map": "/static/js/runtime-main.bfca2edd.js.map",
     "static/css/2.ac1ab58b.chunk.css": "/static/css/2.ac1ab58b.chunk.css",
-    "static/js/2.692ba37c.chunk.js": "/static/js/2.692ba37c.chunk.js",
-    "static/js/2.692ba37c.chunk.js.map": "/static/js/2.692ba37c.chunk.js.map",
+    "static/js/2.690ebb3b.chunk.js": "/static/js/2.690ebb3b.chunk.js",
+    "static/js/2.690ebb3b.chunk.js.map": "/static/js/2.690ebb3b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.136624ce06f10369b8fa0be277e8b560.js": "/precache-manifest.136624ce06f10369b8fa0be277e8b560.js",
+    "precache-manifest.b1b08ae11fd20862b83640d4a1a0747f.js": "/precache-manifest.b1b08ae11fd20862b83640d4a1a0747f.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.ac1ab58b.chunk.css.map": "/static/css/2.ac1ab58b.chunk.css.map",
-    "static/css/main.0cc3f675.chunk.css.map": "/static/css/main.0cc3f675.chunk.css.map",
-    "static/js/2.692ba37c.chunk.js.LICENSE.txt": "/static/js/2.692ba37c.chunk.js.LICENSE.txt",
+    "static/css/main.feedaaa0.chunk.css.map": "/static/css/main.feedaaa0.chunk.css.map",
+    "static/js/2.690ebb3b.chunk.js.LICENSE.txt": "/static/js/2.690ebb3b.chunk.js.LICENSE.txt",
     "static/media/AboutComponent.css": "/static/media/about.8fb4b090.jpg",
     "static/media/acm.f4b0b2a1.svg": "/static/media/acm.f4b0b2a1.svg",
     "static/media/agenda.b9605853.svg": "/static/media/agenda.b9605853.svg",
@@ -22,7 +22,7 @@
     "static/media/clock.42e7d096.svg": "/static/media/clock.42e7d096.svg",
     "static/media/compressed.d7f5352e.svg": "/static/media/compressed.d7f5352e.svg",
     "static/media/download.b9b166b7.svg": "/static/media/download.b9b166b7.svg",
-    "static/media/faceshot_circleborder.png": "/static/media/faceshot_circleborder.8cedc04a.png",
+    "static/media/faceshot_circle_white.png": "/static/media/faceshot_circle_white.7f8dd15d.png",
     "static/media/happyharvest.3575f43c.svg": "/static/media/happyharvest.3575f43c.svg",
     "static/media/idea.9aa3c741.svg": "/static/media/idea.9aa3c741.svg",
     "static/media/mmc.3ae2d70a.svg": "/static/media/mmc.3ae2d70a.svg",
@@ -35,8 +35,8 @@
   "entrypoints": [
     "static/js/runtime-main.bfca2edd.js",
     "static/css/2.ac1ab58b.chunk.css",
-    "static/js/2.692ba37c.chunk.js",
-    "static/css/main.0cc3f675.chunk.css",
-    "static/js/main.3e3e5e9f.chunk.js"
+    "static/js/2.690ebb3b.chunk.js",
+    "static/css/main.feedaaa0.chunk.css",
+    "static/js/main.e425d0ed.chunk.js"
   ]
 }
