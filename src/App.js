@@ -6,6 +6,8 @@ import './App.css';
 export default class Page extends React.Component{
     constructor(props){
         super(props);
+        let desktop = window.innerHeight < window.innerWidth*1.5;
+
         this.state={
             currentPage: 0,
             pages:[
@@ -14,9 +16,18 @@ export default class Page extends React.Component{
                 "Timeline",
                 "Contacts"
             ],
-            menuOpen: true,
+            menuOpen: desktop,
         };
         this.toggleMenu = this.toggleMenu.bind(this);
+        console.log(this.state.menuOpen);
+    }
+
+    componentDidMount(){
+        if(!this.state.menuOpen){
+            document.querySelector('.Left').style.width = "0";
+            document.querySelector('.Right').style.width = "100vw";
+            document.querySelector('.MenuToggle').style.left = "1vw";
+        }
     }
 
     toggleMenu(){

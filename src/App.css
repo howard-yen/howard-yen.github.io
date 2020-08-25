@@ -25,15 +25,10 @@
 
 .MenuToggle{
     position: absolute;
-    width: 2vw;
+    width: 30px;
     height: auto;
     top: 1vh;
     left: 31vw;
     z-index: 10;
     transition: 0.5s;
-}
-
-@media screen and (max-height: 450px) {
-  /* .sidebar {padding-top: 15px;} */
-  /* .sidebar a {font-size: 18px;} */
 }

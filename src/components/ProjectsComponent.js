@@ -72,18 +72,12 @@ function Card(props) {
     }
 
     return(
-        <a
-            href={props.project.url}
-            title={props.project.title}
-            traget="_blank"
-            rel="noopener noreferrer"
-            className="ProjectButton"
-        >
             <animated.div
                 className="Card"
                 // onMouseMove={({clientX: x, clientY: y}) => set({xys: calc(x, y)})}
                 onMouseMove={() => set({xys: [0,0,1.05]})}
                 onMouseLeave={() => set({xys: [0,0,1]})}
+                onClick={() => window.open(props.project.url, "_blank")}
                 style={{transform:p.xys.interpolate(trans), "border-bottom-color":icons[props.project.icon][1], }}
             >
                 {icons[props.project.icon][0]}
@@ -94,7 +88,6 @@ function Card(props) {
                 </div>
 
             </animated.div>
-        </a>
     );
 }
 

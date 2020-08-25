@@ -17,6 +17,9 @@
 
 .Card{
     position: relative;
+    color: black;
+    outline: none;
+    text-decoration: none;
     /* width: 30%; */
     height: 95%;
     background: white;
@@ -40,13 +43,6 @@
 .Card:hover{
     box-shadow: 0px 30px 100px -10px rgba(0,0,0,0.4);
     z-index: 3;
-}
-
-.ProjectButton{
-    border: none;
-    outline: none;
-    color: black;
-    text-decoration: none;
 }
 
 .Icon{
