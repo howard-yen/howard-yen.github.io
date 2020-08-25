@@ -14,9 +14,26 @@
 .Right{
     background-color: #BBD8F1;
     color: black;
+    transition: 0.5s;
 }
 
 .Left{
     background-color: #363946;
     color: white;
+    transition: 0.5s;
+}
+
+.MenuToggle{
+    position: absolute;
+    width: 2vw;
+    height: auto;
+    top: 1vh;
+    left: 31vw;
+    z-index: 10;
+    transition: 0.5s;
+}
+
+@media screen and (max-height: 450px) {
+  /* .sidebar {padding-top: 15px;} */
+  /* .sidebar a {font-size: 18px;} */
 }

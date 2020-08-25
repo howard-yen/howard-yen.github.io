@@ -1,6 +1,6 @@
 import React from 'react';
 import BubbleRow from './SocialMediaBubbles';
-import faceshot from '../images/faceshot_circleborder.png';
+import faceshot from '../images/faceshot_circle_white.png';
 
 import Nav from 'react-bootstrap/Nav';
 import './Left.css';
@@ -10,11 +10,10 @@ class Menu extends React.Component{
         const buttons = [];
 
         for(let i = 0; i < pages.length; i++){
-            let o = {opacity: i===currentPage ? '100%' : '50%'};
+            // let o = {opacity: i===currentPage ? '100%' : '50%'};
 
             buttons.push(
-                <Nav.Link className="MenuButton" key={i} eventKey={i}
-                    style={o}>
+                <Nav.Link className="MenuButton" key={i} eventKey={i}>
                     {pages[i]}
                 </Nav.Link>
             );
@@ -57,7 +56,7 @@ export default class Left extends React.Component{
         return(
             <div className="Split Left">
                 <header className="Left-header">
-                    <img src={faceshot} alt={'Howard Yen'} width='200px' height='200px'/>
+                    <img src={faceshot} alt={'Howard Yen'} width='250px' height='250px'/>
                     <h1 style={{'margin-bottom': '0'}}> Howard Yen</h1>
                     <p style={{'width': '50%', 'text-align':'center'}}>A passionate coder interested in creating various projects!</p>
                 </header>

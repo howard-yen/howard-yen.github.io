@@ -7,7 +7,7 @@
 
 .Left{
     position: fixed;
-    width: 30%;
+    width: 30vw;
     left: 0;
 }
 
@@ -31,16 +31,17 @@
 
 .MenuButton{
     font-size: 200%;
-    margin: 2%;
+    margin: 0.5vw;
     border: none;
     outline: none;
     text-decoration: none;
     color: inherit;
+    opacity: 0.8;
 }
 
-/* .MenuButton:hover{
-    background: #fff;
-} */
+.MenuButton:hover{
+    opacity: 1;
+}
 
 footer{
     position: absolute;
