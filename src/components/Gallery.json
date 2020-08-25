@@ -45,20 +45,34 @@
     "The Museum of Illusions":{
         "Photos":[
             {
-                "file": "Jessie1.png",
+                "file": "Museum1.png",
                 "offset": 0.2,
                 "left": "20%",
                 "width": "60%",
                 "speed": 0
+            },
+            {
+                "file":"Museum3.jpg",
+                "offset": 0.15,
+                "left": "65%",
+                "width": "30%",
+                "speed": -0.1
+            },
+            {
+                "file":"Museum2.jpg",
+                "offset": 0.7,
+                "left": "5%",
+                "width": "20%",
+                "speed": -0.1
             }
         ],
         "Text":[
             {
                 "text": "The Museum of Illusions",
                 "size": "2em",
-                "offset": 0,
-                "left": "30%",
-                "speed": -0.1
+                "offset": 0.05,
+                "left": "20%",
+                "speed": 0
             }
         ],
         "Others":[
@@ -71,7 +85,7 @@
             },
             {
                 "file": "sagittarius.svg",
-                "offset": 0.6,
+                "offset": 0.7,
                 "left": "85%",
                 "width": "12%",
                 "speed": -0.1
@@ -107,10 +121,18 @@
         "Others":[
             {
                 "file": "bigdipper.svg",
-                "offset": 0.2,
-                "left": "20%",
+                "offset": 0.7,
+                "left": "70%",
                 "width": "10%",
-                "speed": -0.05
+                "speed": 0.15
+            },
+            {
+                "file": "leftcloud.svg",
+                "offset": 0.9,
+                "left": "80%",
+                "width": "5%",
+                "speed": 0.1,
+                "opacity": 0.4
             }
         ]
     },
@@ -143,10 +165,69 @@
         "Others":[
             {
                 "file": "cancer.svg",
-                "offset": 0.7,
+                "offset": 0.9,
                 "left": "80%",
                 "width": "5%",
                 "speed": 0.1
+            }
+        ]
+    },
+    "Graduation":{
+        "Photos":[
+            {
+                "file":"graduation_group.png",
+                "offset": 0.5,
+                "left": "5%",
+                "width": "30%",
+                "speed": 0.2
+            },
+            {
+                "file":"graduation_jacob.png",
+                "offset": 0.2,
+                "left": "65%",
+                "width": "30%",
+                "speed": 0.1
+            },
+            {
+                "file":"graduation_bro.png",
+                "offset": 0,
+                "left": "20%",
+                "width": "25%",
+                "speed": 0
+            },
+            {
+                "file":"graduation_jessie.jpg",
+                "offset": 0.5,
+                "left": "40%",
+                "width": "35%",
+                "speed": -0.1
+            }
+        ],
+        "Text":[
+            {
+                "text": "High School Graduation",
+                "size": "2em",
+                "offset": 0,
+                "left": "50%",
+                "speed": 0.1
+            }
+        ],
+        "Others":[
+            {
+                "file":"rightcloud.svg",
+                "offset": 0.15,
+                "left": "10%",
+                "width": "5%",
+                "speed": -0.1,
+                "opacity": 0.4
+            },
+            {
+                "file":"doublecloud.svg",
+                "offset": 0.3,
+                "left": "50%",
+                "width": "10%",
+                "speed": 0.3,
+                "opacity": 0.6
             }
         ]
     }

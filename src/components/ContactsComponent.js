@@ -20,7 +20,11 @@ class Gallery extends React.Component{
 
             for(let o of galleryInfo[g]["Others"]){
                 gallery.push(
-                    <ParallaxLayer offset={i + o["offset"]} speed={o["speed"]} >
+                    <ParallaxLayer
+                        offset={i + o["offset"]}
+                        speed={o["speed"]}
+                        style={{opacity: o["opacity"]}}
+                    >
                         <img src={path(o["file"])} alt={o["file"]} style={{display: "block", width: o["width"], height: "auto", marginLeft: o["left"]}}/>
                     </ParallaxLayer>
                 );
@@ -65,7 +69,7 @@ class Gallery extends React.Component{
                 pages={gallerylength}
                 style={{"position": "relative", "width":"100%", "height": "100%"}}
             >
-                {/* background layer */}
+                {/* background layer need it here so doesn't cover the photo from previous layer*/}
                 <ParallaxLayer offset={0} speed={0} factor={gallerylength} style={{backgroundColor: "#363946"}}/>
 
                 {gallery}
