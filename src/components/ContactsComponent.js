@@ -90,7 +90,7 @@ export default class ContactsComponent extends React.Component{
                     If you have any questions or just want to chat, feel free to reach out to me at hyen@princeton.edu
                 </h3>
                 <p>
-                    Thanks for checking out my website and here are some interesting photos!
+                    Thanks for checking out my website and here are some interesting photos! (use desktop for optimal viewing)
                 </p>
                 <Gallery/>
             </div>

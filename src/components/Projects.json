@@ -62,6 +62,15 @@
             "Note": "Code not available publicly due to class policies but available upon request"
         }
     },
+    "Twitter: Bull or Bear":{
+        "title": "Twitter: Bull or Bear",
+        "url":"https://docs.google.com/document/d/1ksdLPEeKOQaKms8buKNl6TGrtTmtWtJBzh3CUqxLn_M/edit?usp=sharing",
+        "icon": "Stocks",
+        "description": "An assignment for the class WRI150: Your Life in Numbers. In this project, I explored the relationship between a company's Twitter account vs. various financial metrics. First, I collected companies' Twitter follower and tweet history by using Python to scrap https://www.trackalytics.com, then collected companies quarters and stock data from NASDAQ. Then, I used linear regression to find trends between the statistics.",
+        "others":{
+            
+        }
+    },
     "mergepdf":{
         "title": "mergepdf",
         "url": "https://github.com/howard-yen/mergepdf",

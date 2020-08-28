@@ -13,6 +13,7 @@ import {ReactComponent as Chess} from '../images/chess.svg';
 import {ReactComponent as Compressed} from '../images/compressed.svg';
 import {ReactComponent as Pawn} from '../images/pawn.svg';
 import {ReactComponent as Download} from '../images/download.svg';
+import {ReactComponent as Stocks} from '../images/stocks.svg';
 
 const icons = {
     "Idea": [
@@ -53,6 +54,10 @@ const icons = {
     ],
     "Download":[
         <Download className="Icon" style={{"stroke": "#B1E5F2"}}/>,
+        "#B1E5F2"
+    ],
+    "Stocks":[
+        <Stocks className="Icon" style={{"stroke": "#B1E5F2"}}/>,
         "#B1E5F2"
     ]
 }
@@ -116,6 +121,9 @@ export default class Projects extends React.Component{
                 <h2 style={{'font-size': '300%'}}>
                     Projects
                 </h2>
+                <h3>
+                    Click to learn more about any particular project!
+                </h3>
                 <div className="CardContainer">
                     {projects}
                 </div>
