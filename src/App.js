@@ -36,10 +36,15 @@ export default class Page extends React.Component{
             document.querySelector('.Right').style.width = "100vw";
             document.querySelector('.MenuToggle').style.left = "1vw";
         }else{
-            console.log("hello");
-            document.querySelector('.Left').style.width = "30vw";
-            document.querySelector('.Right').style.width = "70vw";
-            document.querySelector('.MenuToggle').style.left = "31vw";
+            if(window.innerWidth > 1000){
+                document.querySelector('.Left').style.width = "30vw";
+                document.querySelector('.Right').style.width = "70vw";
+                document.querySelector('.MenuToggle').style.left = "31vw";
+            }else{
+                document.querySelector('.Left').style.width = "100vw";
+                document.querySelector('.Right').style.width = "0vw";
+                document.querySelector('.MenuToggle').style.left = "90vw";
+            }
         }
 
         this.setState({
