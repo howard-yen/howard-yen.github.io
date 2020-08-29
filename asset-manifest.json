@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.a9ffd3ca.chunk.css",
-    "main.js": "/static/js/main.ac1a5b12.chunk.js",
-    "main.js.map": "/static/js/main.ac1a5b12.chunk.js.map",
+    "main.css": "/static/css/main.9d502367.chunk.css",
+    "main.js": "/static/js/main.283059fb.chunk.js",
+    "main.js.map": "/static/js/main.283059fb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.bfca2edd.js",
     "runtime-main.js.map": "/static/js/runtime-main.bfca2edd.js.map",
     "static/css/2.ac1ab58b.chunk.css": "/static/css/2.ac1ab58b.chunk.css",
     "static/js/2.f3e38650.chunk.js": "/static/js/2.f3e38650.chunk.js",
     "static/js/2.f3e38650.chunk.js.map": "/static/js/2.f3e38650.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b24e8f58ca0cd4e02647e917f59d0297.js": "/precache-manifest.b24e8f58ca0cd4e02647e917f59d0297.js",
+    "precache-manifest.6fae2d09c4aed4bf440805e268f104da.js": "/precache-manifest.6fae2d09c4aed4bf440805e268f104da.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.ac1ab58b.chunk.css.map": "/static/css/2.ac1ab58b.chunk.css.map",
-    "static/css/main.a9ffd3ca.chunk.css.map": "/static/css/main.a9ffd3ca.chunk.css.map",
+    "static/css/main.9d502367.chunk.css.map": "/static/css/main.9d502367.chunk.css.map",
     "static/js/2.f3e38650.chunk.js.LICENSE.txt": "/static/js/2.f3e38650.chunk.js.LICENSE.txt",
+    "static/media/MenuToggle.dc638895.svg": "/static/media/MenuToggle.dc638895.svg",
     "static/media/acm.f4b0b2a1.svg": "/static/media/acm.f4b0b2a1.svg",
     "static/media/agenda.b9605853.svg": "/static/media/agenda.b9605853.svg",
     "static/media/book.bccfd4e8.svg": "/static/media/book.bccfd4e8.svg",
@@ -21,7 +22,7 @@
     "static/media/clock.42e7d096.svg": "/static/media/clock.42e7d096.svg",
     "static/media/compressed.d7f5352e.svg": "/static/media/compressed.d7f5352e.svg",
     "static/media/download.b9b166b7.svg": "/static/media/download.b9b166b7.svg",
-    "static/media/faceshot_circle_white.png": "/static/media/faceshot_circle_white.7f8dd15d.png",
+    "static/media/faceshot_circle_black.png": "/static/media/faceshot_circle_black.cdb3759f.png",
     "static/media/happyharvest.3575f43c.svg": "/static/media/happyharvest.3575f43c.svg",
     "static/media/idea.9aa3c741.svg": "/static/media/idea.9aa3c741.svg",
     "static/media/mmc.3ae2d70a.svg": "/static/media/mmc.3ae2d70a.svg",
@@ -36,7 +37,7 @@
     "static/js/runtime-main.bfca2edd.js",
     "static/css/2.ac1ab58b.chunk.css",
     "static/js/2.f3e38650.chunk.js",
-    "static/css/main.a9ffd3ca.chunk.css",
-    "static/js/main.ac1a5b12.chunk.js"
+    "static/css/main.9d502367.chunk.css",
+    "static/js/main.283059fb.chunk.js"
   ]
 }
