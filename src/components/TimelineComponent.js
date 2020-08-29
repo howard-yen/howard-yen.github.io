@@ -32,6 +32,7 @@ export default class TimelineComponent extends React.Component{
                     //background & font color to be changed
                     contentStyle={{background: "#fff", color: "#000"}}
                     date={info["date"]}
+                    dateClassName={"Date"}
                     iconStyle={{background: "#fff"}}
                     icon={icons[info["icon"]]}
                     iconOnClick={() => window.open(info["link"], "_blank")}

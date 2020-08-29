@@ -3,8 +3,13 @@
     padding: 2%;
     width: 96%;
     height: auto;
+    color: white;
 }
 
 h3.vertical-timeline-element-title{
     font-size: 1.5em;
+}
+
+.Date{
+    color: white;
 }

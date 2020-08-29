@@ -155,7 +155,7 @@
         ],
         "Text":[
             {
-                "text": "Freshmen Sophomore Winter Social",
+                "text": "Winter Social",
                 "size": "2em",
                 "offset": 0.5,
                 "left": "70%",
@@ -184,9 +184,16 @@
             {
                 "file":"graduation_jacob.png",
                 "offset": 0.2,
-                "left": "65%",
+                "left": "50%",
                 "width": "30%",
                 "speed": 0.1
+            },
+            {
+                "file":"graduation_kenny.png",
+                "offset": 0.4,
+                "left": "75%",
+                "width": "20%",
+                "speed": 0.3
             },
             {
                 "file":"graduation_bro.png",
@@ -198,7 +205,7 @@
             {
                 "file":"graduation_jessie.jpg",
                 "offset": 0.5,
-                "left": "40%",
+                "left": "35%",
                 "width": "35%",
                 "speed": -0.1
             }
@@ -223,8 +230,8 @@
             },
             {
                 "file":"doublecloud.svg",
-                "offset": 0.3,
-                "left": "50%",
+                "offset": 0.8,
+                "left": "80%",
                 "width": "10%",
                 "speed": 0.3,
                 "opacity": 0.6

@@ -3,6 +3,8 @@ import Left from './components/Left';
 import Right from './components/Right';
 import './App.css';
 
+import {ReactComponent as MenuToggle} from './images/MenuToggle.svg';
+
 export default class Page extends React.Component{
     constructor(props){
         super(props);
@@ -60,7 +62,7 @@ export default class Page extends React.Component{
                     pages={this.state.pages}
                     currentPage={this.state.currentPage}
                 />
-                <img className="MenuToggle" onClick={() => this.toggleMenu()} src={'/MenuToggle.png'} alt={'MenuToggle'}/>
+                <MenuToggle className="MenuToggle" onClick={() => this.toggleMenu()}/>
                 <Right/>
             </div>
         );

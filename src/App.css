@@ -18,8 +18,8 @@
 }
 
 .Right{
-    background-color: #BBD8F1;
-    color: black;
+    background-color: #363946;
+    color: white;
     transition: 0.5s;
     width: 70vw;
     scroll-behavior: smooth;
@@ -30,8 +30,8 @@
 }
 
 .Left{
-    background-color: #363946;
-    color: white;
+    background-color: #c6e1ee;
+    color: black;
     transition: 0.5s;
     position: fixed;
     width: 30vw;
@@ -55,4 +55,5 @@
     left: 31vw;
     z-index: 10;
     transition: 0.5s;
+    fill: #ffd6a5;
 }
