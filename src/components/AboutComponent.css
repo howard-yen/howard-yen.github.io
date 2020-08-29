@@ -2,18 +2,31 @@
     position: relative;
     width: 100%;
     min-height: 100vh;
-    background-image: url("../images/about.jpg");
+    /* background-image: url("../images/about.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+}
+
+.AboutPic{
+    display: block;
+    position: absolute;
+    top: 10vh;
+    left: 30%;
+    border: 1em solid white;
+    z-index: 1;
+    width: 50%;
+    height: auto;
+    border-radius: 3%;
 }
 
 .AboutText{
+    z-index: 2;
     display:block;
     position: relative;
     width: 18em;
     height: min-content;
-    left: 15vw;
+    left: 15%;
     top: 30vh;
 
     background-color: white;

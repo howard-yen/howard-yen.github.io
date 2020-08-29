@@ -43,6 +43,26 @@ export default class About extends React.Component{
                         </animated.div>)
                     }
                 </Transition>
+
+                <Transition
+                    native
+                    items={this.state.show}
+                    from={{opacity: 0}}
+                    enter={{opacity: 1}}
+                    leave={{opacity:0}}
+                    config={{delay: 0, duration: 1000}}
+                >
+                    {show => show && (props =>
+                        <animated.div
+                            style={props}
+                        >
+                            <img
+                            className="AboutPic"
+                            src="/about.png"
+                            alt="about"/>
+                        </animated.div>)
+                    }
+                </Transition>
             </div>
         )
     }
