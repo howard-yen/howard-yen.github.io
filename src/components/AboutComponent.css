@@ -38,3 +38,15 @@
     box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.3);
     border: 1em solid white;
 }
+
+@media screen and (max-width: 500px){
+    .AboutPic{
+        top: 20vh;
+    }
+
+    .AboutText{
+        top: 35vh;
+        width: 80%;
+        left: 5%;
+    }
+}
