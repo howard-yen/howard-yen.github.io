@@ -41,11 +41,11 @@
 
 @media screen and (max-width: 500px){
     .AboutPic{
-        top: 20vh;
+        top: 10vh;
     }
 
     .AboutText{
-        top: 35vh;
+        top: 25vh;
         width: 80%;
         left: 5%;
     }
