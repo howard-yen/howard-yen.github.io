@@ -41,7 +41,7 @@ export default class Right extends React.Component{
 
                     </scroll-page>
 
-                    <scroll-page id="Contacts" className="Page">
+                    <scroll-page id="Contact" className="Page">
                         <ContactsComponent/>
                     </scroll-page>
                 </scroll-container>

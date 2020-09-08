@@ -3,7 +3,7 @@
         "title": "mangadex-download",
         "url": "https://howard-yen.github.io/mangadex-download/",
         "icon": "Download",
-        "description": "A project born out of my love for reading and manga. I utilized the requests, lxml, PIL, and smtplib Python libraries to scrape the website mangadex.org for images. Functionality include using browser cookies bypass login requirements on the website to search for specific titles, downloading a selection of the chapters as pdf files by first scraping individual images of each chapter, and emailing the files to the user.",
+        "description": "A project born out of my love for reading and manga. I utilized the requests, lxml, PIL, and smtplib Python libraries to scrape the website mangadex.org for images.\nFunctionality include using browser cookies bypass login requirements on the website to search for specific titles, downloading a selection of the chapters as pdf files by first scraping individual images of each chapter, and emailing the files to the user.",
         "others": {
 
         }
@@ -12,7 +12,7 @@
         "title": "pdfsummary",
         "url": "https://github.com/archen2019/pdfsummary",
         "icon": "Agenda",
-        "description": "Motivated by the struggles of reading hundreds of papers for classes, my partner and I developed this Python script aimed to makes students' lives easier and submitted it as a project for HackPrinceton 2019. We first used computer vision to read in every page of a pdf file as images and extracted the content as texts. Then we used a summarization algorithm to find the key words in the content and produce a summary for the entire file.",
+        "description": "Motivated by the struggles of reading hundreds of papers for classes, my partner and I developed this Python script aimed to makes students' lives easier and submitted it as a project for HackPrinceton 2019.\nWe first used computer vision to read in every page of a pdf file as images and extracted the content as texts. Then we used a summarization algorithm to find the key words in the content and produce a summary for the entire file.",
         "others": {
 
         }
@@ -30,7 +30,7 @@
         "title": "uptime analysis",
         "url": "https://docs.google.com/presentation/d/1sCf-PyHFVULJR9gPqhILHL1Lkp5Oxbpz4o2ilrraWkg/edit?usp=sharing",
         "icon": "Clock",
-        "description": "Final project for the class WRI150: Your Life in Numbers. Throughout the 12 weeks of the freshmen spring semester, I recorded the amount of time I spend on my laptop everyday by writing a shell script on my Arch Linux OS that recorded the system uptime everytime I poweroff or reboot my laptop. I also recorded my typing speed everyday by doing 3 typing tests on typeracer.com. Finally, I conducted statistical analysis in R to find correlations between the two.",
+        "description": "Final project for the class WRI150: Your Life in Numbers, where I analyzed the relationship between my computer usage and typing speed.\nThroughout the 12 weeks of the freshmen spring semester, I recorded the amount of time I spend on my laptop everyday by writing a shell script on my Arch Linux OS that recorded the system uptime everytime I poweroff or reboot my laptop. I also recorded my typing speed everyday by doing 3 typing tests on typeracer.com. Finally, I conducted statistical analysis in R to find correlations between the two.",
         "others":{
 
         }
@@ -39,7 +39,7 @@
         "title": "Seam Carving",
         "url": "https://www.cs.princeton.edu/courses/archive/fall20/cos226/assignments/seam/specification.php",
         "icon": "Photo",
-        "description": "An assignment for the class COS226: Algorithms and Data Structures. The goal was to implement shortest path algorithms in Java to find the horizontal/vertical path in a photo that has the least energy changes, where the weight of the edges are the square differences between the rgb values of each pixel. We initially implemented Dijkstra's algorithm then optimized it with topological sort.",
+        "description": "An assignment for the class COS226: Algorithms and Data Structures. The goal was to find the best path in an image to remove and remove them dynamically.\nThe best horizontal/vertical path in a photo is one that has the least energy changes, where the weight of the edges are the square differences between the rgb values of each pixel. I initially implemented Dijkstra's algorithm in Java to find such paths and then optimized it with topological sort.",
         "others":{
             "Note": "Code not available publicly due to class policies but available upon request"
         }
@@ -48,7 +48,7 @@
         "title": "Burrows-Wheeler",
         "url": "https://www.cs.princeton.edu/courses/archive/fall20/cos226/assignments/burrows/specification.php",
         "icon": "Compressed",
-        "description": "An assignment for the class COS226: Algorithms and Data Structures. This is an implementation of the Burrows-Wheeler data compression algorithm in Java. This consisted of Burrows-Wheeler Transform and move-to-front encoding. To do this efficiently, I used most significant digit sort to construct a circular array which contains optimized references to the original string that is to be compressed.",
+        "description": "An assignment for the class COS226: Algorithms and Data Structures. This is an implementation of the Burrows-Wheeler data compression algorithm in Java.\nThis consisted of Burrows-Wheeler Transform and move-to-front encoding. To do this efficiently, I used most significant digit sort to construct a circular array which contains optimized references to the original string that is to be compressed.",
         "others":{
             "Note": "Code not available publicly due to class policies but available upon request"
         }
@@ -57,7 +57,7 @@
         "title": "shell",
         "url": "https://www.cs.princeton.edu/courses/archive/spr19/cos217/asgts/07shell/",
         "icon": "Terminal",
-        "description": "An assignment for the class COS217: Introduction to Programming Systems. My partner and I designed a basic Unix Shell in C. This contains a lexical analyzer and a syntactic analyzer which parse the input command and determine if they are valid, and also handling for internal and external commands, input/output redirections, and signals.",
+        "description": "An assignment for the class COS217: Introduction to Programming Systems. My partner and I designed a basic Unix Shell in C.\nThis contains a lexical analyzer and a syntactic analyzer which parse the input command and determine if they are valid, and also handling for internal and external commands, input/output redirections, and signals.",
         "others":{
             "Note": "Code not available publicly due to class policies but available upon request"
         }
@@ -66,16 +66,16 @@
         "title": "Twitter: Bull or Bear",
         "url":"https://docs.google.com/document/d/1ksdLPEeKOQaKms8buKNl6TGrtTmtWtJBzh3CUqxLn_M/edit?usp=sharing",
         "icon": "Stocks",
-        "description": "An assignment for the class WRI150: Your Life in Numbers. In this project, I explored the relationship between a company's Twitter account vs. various financial metrics. First, I collected companies' Twitter follower and tweet history by using Python to scrap https://www.trackalytics.com, then collected companies quarters and stock data from NASDAQ. Then, I used linear regression to find trends between the statistics.",
+        "description": "An assignment for the class WRI150: Your Life in Numbers. In this project, I explored the relationship between a company's Twitter account vs. various financial metrics.\nFirst, I collected companies' Twitter follower and tweet history by using Python to scrap https://www.trackalytics.com, then collected companies quarters and stock data from NASDAQ. Then, I used linear regression to find trends between the statistics.",
         "others":{
-            
+
         }
     },
     "mergepdf":{
         "title": "mergepdf",
         "url": "https://github.com/howard-yen/mergepdf",
         "icon": "Book",
-        "description": "A simple Python script that merges all the pdf files in a given directory into one pdf file. This was originally used as a study tool to combine class notes together so that it's easier to reference materials.",
+        "description": "A simple Python script that merges all the pdf files in a given directory into one pdf file. This was originally used as a study tool to combine class notes together so that it's easier to reference materials. I also use this as a way to concatenate lecture slides together for ease of seraching for terms on open notes exams.",
         "others": {
 
         }

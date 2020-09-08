@@ -88,7 +88,8 @@ function Card(props) {
                 {icons[props.project.icon][0]}
                 <h2>{props.project.title}</h2>
                 <div className="ProjectText">
-                    <p style={{"text-indent": "2em", "margin-top": 0}}>{props.project.description}</p>
+                    {props.project.description.split('\n').map((item, i) => <p key={i} style={{"text-indent":"2em", "margine-top": 0}}>{item}</p>)}
+                    {/* <p style={{"text-indent": "2em", "margin-top": 0}}>{props.project.description}</p> */}
                     {[...text]}
                 </div>
 

@@ -57,3 +57,7 @@
     transition: 0.5s;
     fill: #ffd6a5;
 }
+
+a.external{
+    color: #ffd6a5;
+}

@@ -30,7 +30,7 @@ export default class About extends React.Component{
                         >
                             <h2>Hi I'm Howard!</h2>
                             <p style={{"text-indent": "1em"}}>I am a sophomore studying Computer Science at Princeton University, and I love creating apps and projects (check them out on my&nbsp;
-                                <a href="https://github.com/howard-yen/" title="github" target="_blank" rel="noopener noreferrer">
+                                <a className="external" href="https://github.com/howard-yen/" title="github" target="_blank" rel="noopener noreferrer">
                                     github
                                 </a>!)
                             </p>

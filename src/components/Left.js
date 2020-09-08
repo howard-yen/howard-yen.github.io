@@ -6,21 +6,6 @@ import Nav from 'react-bootstrap/Nav';
 import './Left.css';
 
 class Menu extends React.Component{
-    getButtons = (pages, currentPage) => {
-        const buttons = [];
-
-        for(let i = 0; i < pages.length; i++){
-            // let o = {opacity: i===currentPage ? '100%' : '50%'};
-
-            buttons.push(
-                <Nav.Link className="MenuButton" key={i} eventKey={i}>
-                    {pages[i]}
-                </Nav.Link>
-            );
-        }
-
-        return [...buttons];
-    }
     getA = (pages, currentPages) =>{
         const buttons =[];
         for(let i = 0; i < pages.length; i++){

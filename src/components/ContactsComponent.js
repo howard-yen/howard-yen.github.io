@@ -84,10 +84,15 @@ export default class ContactsComponent extends React.Component{
         return(
             <div className="Contacts">
                 <h2 style={{'font-size':'300%'}}>
-                    Contacts
+                    Contact
                 </h2>
                 <h3>
-                    If you have any questions or just want to chat, feel free to reach out to me at hyen@princeton.edu
+                    If you are interested in any of my projects and want to talk about them, feel free to reach out to me at hyen@princeton.edu
+                </h3>
+                <h3>You can also find a copy of my resume&nbsp;
+                    <a className="external" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                        here
+                    </a>
                 </h3>
                 <p>
                     Thanks for checking out my website and here are some interesting photos! (use desktop for optimal viewing)

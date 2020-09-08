@@ -16,7 +16,7 @@ export default class Page extends React.Component{
                 "About",
                 "Projects",
                 "Timeline",
-                "Contacts"
+                "Contact"
             ],
             menuOpen: desktop,
         };

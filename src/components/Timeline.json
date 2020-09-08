@@ -1,4 +1,16 @@
 {
+    "PrincetonCOS226":{
+        "title": "Princeton University Computer Science Department",
+        "date": "February 2020 - Present",
+        "position": "COS 226: Algorithms and Data Structures Grader",
+        "location": "Princeton, New Jersey",
+        "icon": "Princeton",
+        "link": "https://www.cs.princeton.edu/courses/archive/fall20/cos226/",
+        "description":[
+            "Grades the coding assignments for the class COS 226: Algorithms and Data Structures",
+            "Analyze students’ codes for their efficiency, style, and clarity, and provide feedback by teaching them good coding practices and more efficient implementations of algorithms and data structures like Binary Search and Deque"
+        ]
+    },
     "MMC":{
         "title": "Map My Customers",
         "date": "June - August 2020",
@@ -10,18 +22,6 @@
             "Worked full-time remotely on the product team to analyze the data collected on the web app and the mobile app",
             "Compiled metrics from the PostgresSQL database and developed PCA and SVM statistical models to predict if users will buy a subscription based on their usage during free trial period",
             "Analyzed geopoints recorded by the mobile app to develop a model that predicts a user’s home/office locations and connected the model to OpenStreetMaps API to obtain their addresses"
-        ]
-    },
-    "PrincetonCOS226":{
-        "title": "Princeton University Computer Science Department",
-        "date": "February - May 2020",
-        "position": "COS 226: Algorithms and Data Structures Grader",
-        "location": "Princeton, New Jersey",
-        "icon": "Princeton",
-        "link": "https://www.cs.princeton.edu/courses/archive/fall20/cos226/",
-        "description":[
-            "Grades the coding assignments for the class COS 226: Algorithms and Data Structures",
-            "Analyze students’ codes for their efficiency, style, and clarity, and provide feedback by teaching them good coding practices and more efficient implementations of algorithms and data structures like Binary Search and Deque"
         ]
     },
     "PrincetonACM":{
