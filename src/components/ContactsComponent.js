@@ -87,7 +87,7 @@ export default class ContactsComponent extends React.Component{
                     Contact
                 </h2>
                 <h3>
-                    If you are interested in any of my projects and want to talk about them, feel free to reach out to me at hyen@princeton.edu
+                    I'm looking for my next opportunity in software engineering and machine learning, if you have an open position or just want to chat about my projects, feel free to reach out to me at hyen@princeton.edu
                 </h3>
                 <h3>You can also find a copy of my resume&nbsp;
                     <a className="external" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
