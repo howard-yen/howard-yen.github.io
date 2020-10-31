@@ -14,8 +14,13 @@ import {ReactComponent as Compressed} from '../images/compressed.svg';
 import {ReactComponent as Pawn} from '../images/pawn.svg';
 import {ReactComponent as Download} from '../images/download.svg';
 import {ReactComponent as Stocks} from '../images/stocks.svg';
+import {ReactComponent as Spotifind} from '../images/Spotifind.svg';
 
 const icons = {
+    "Spotifind":[
+        <Spotifind className="Icon" style={{"stroke": ""}}/>,
+        "#1ED760"
+    ],
     "Idea": [
         <Idea className="Icon" style={{"stroke": "#9bf6ff"}} />,
         "#9bf6ff"

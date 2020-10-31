@@ -1,4 +1,13 @@
  {
+    "spotifind":{
+        "title": "spotifind",
+        "url": "https://github.com/mathewjhan/spotifind",
+        "icon": "Spotifind",
+        "description": "Focused on connectivity and sparking new friendships through music, this IvyHacks project utilized machine learning algorithm and the Spotify API to recommend users music based on their taste as well as the people around them. We built the frontend using React JS and the backend using Python, and integrated the two using Flask. We fetched the user's most popular artist and songs using the Spotify API, the user's geolocation data and the nearby users using the web browser's geolocation API, and then recommend to the user the music that are the most similar to their taste using K Nearest Neighbors algorithm.",
+        "others":{
+
+        }
+    },
     "mangadex-download":{
         "title": "mangadex-download",
         "url": "https://howard-yen.github.io/mangadex-download/",

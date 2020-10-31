@@ -9,13 +9,15 @@ import {ReactComponent as Princeton} from '../images/princeton.svg';
 import {ReactComponent as ACM} from '../images/acm.svg';
 import {ReactComponent as PSHS} from '../images/pshs.svg';
 import {ReactComponent as HappyHarvest} from '../images/happyharvest.svg';
+import {ReactComponent as ResInDe} from '../images/ResInDe.svg';
 
 const icons ={
     "MMC": <MMC />,
     "Princeton": <Princeton/>,
     "ACM": <ACM/>,
     "PSHS": <PSHS/>,
-    "Happy Harvest": <HappyHarvest/>
+    "Happy Harvest": <HappyHarvest/>,
+    "ResInDe": <ResInDe/>
 }
 
 export default class TimelineComponent extends React.Component{

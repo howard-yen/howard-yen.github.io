@@ -11,6 +11,18 @@
             "Analyze students’ codes for their efficiency, style, and clarity, and provide feedback by teaching them good coding practices and more efficient implementations of algorithms and data structures like Binary Search, Deque, and Dijkstra's"
         ]
     },
+    "ResInDe":{
+        "title": "RESearch INnovation DEsign",
+        "date": "September 2020 - Present",
+        "position": "Design and Development Team Member",
+        "location": "Princeton, New Jersey",
+        "icon": "ResInDe",
+        "link": "",
+        "description":[
+            "Conduct user and market research on the course selection process for college students through surveys and interviews to find ways on how to improve the current course selection app(recal.io), the course review app(princeton courses), and the concentration path app(tigerpath).",
+            "Work in a team of 5 to develop a completely new course selection web application by integrating a number of apps used by students at Princeton University."
+        ]
+    },
     "SophomoreYear":{
         "title": "Princeton University 2nd Year",
         "date": "August 2020 - Present",
@@ -23,7 +35,7 @@
             "Coursework: Operating Systems, Functional Programming, Computer Vision",
             "COS318 Operating Systems: Emphasis is on the fundamentals of how to design and implement an operating system. (C and x86 Assembly)",
             "COS326 Functional Programming: Programming recursive functions over structured data types and informal reasoning by induction about the correctness of those functions. (OCaml)",
-            "COS429 Computer Vision: Surveys a wide range of topics from level-level vision to high-level recognition. (Python)"        
+            "COS429 Computer Vision: Surveys a wide range of topics from level-level vision to high-level recognition. (Python)"
         ]
     },
     "MMC":{
