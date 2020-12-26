@@ -1,4 +1,20 @@
 {
+    "SophomoreSpring":{
+        "title": "Princeton University 2nd Year Spring",
+        "date": "February 2021 - Present",
+        "position": "Bachelor's in B.S.E. Computer Science",
+        "location": "Princeton, New Jersey",
+        "icon": "Princeton",
+        "link": "https://www.cs.princeton.edu/",
+        "description":[
+            "Intended certificates in Robotics and Intelligent System and Statistics and Machine Learning",
+            "Coursework: Advanced Programming Techniques, Natural Language Processing, Economics and Computing, Probability and Stochastic Systems",
+            "COS333 Advanced Programming Techniques: Students learn and practice common programming techniques like designing, debuggin and testing, and maintaining software by developing an app.",
+            "COS484 Natural Language Processing: Covers standard frameworks for dealing with natural language as well as algorithms and techniques to solve various NLP problems, including recent deep learning approaches.(Python)",
+            "COS445 Economics and Computing: Focus on mathematical and computational tools involved in the interaction of economics and computation.",
+            "ORF309 Probability and Stochastic Systems: basic principles of probability; Lifetimes and reliability, Poisson processes; random walks; Brownian motion; branching processes; Markov chains."
+        ]
+    },
     "PrincetonCOS226":{
         "title": "Princeton University Computer Science Department",
         "date": "February 2020 - Present",
@@ -12,7 +28,7 @@
         ]
     },
     "ResInDe":{
-        "title": "RESearch INnovation DEsign",
+        "title": "RESearch INnovation DEsign(ResInDe)",
         "date": "September 2020 - Present",
         "position": "Design and Development Team Member",
         "location": "Princeton, New Jersey",
@@ -23,9 +39,9 @@
             "Work in a team of 5 to develop a completely new course selection web application by integrating a number of apps used by students at Princeton University."
         ]
     },
-    "SophomoreYear":{
-        "title": "Princeton University 2nd Year",
-        "date": "August 2020 - Present",
+    "SophomoreFall":{
+        "title": "Princeton University 2nd Year Fall",
+        "date": "August - December 2020",
         "position": "Bachelor's in B.S.E. Computer Science",
         "location": "Princeton, New Jersey",
         "icon": "Princeton",
@@ -33,9 +49,9 @@
         "description":[
             "Intended certificates in Robotics and Intelligent System and Statistics and Machine Learning",
             "Coursework: Operating Systems, Functional Programming, Computer Vision",
-            "COS318 Operating Systems: Emphasis is on the fundamentals of how to design and implement an operating system. (C and x86 Assembly)",
-            "COS326 Functional Programming: Programming recursive functions over structured data types and informal reasoning by induction about the correctness of those functions. (OCaml)",
-            "COS429 Computer Vision: Surveys a wide range of topics from level-level vision to high-level recognition. (Python)"
+            "COS318 Operating Systems (A): Emphasis on the fundamentals of how to design and implement an operating system. (C and x86 Assembly)",
+            "COS326 Functional Programming (A): Programming recursive functions over structured data types and informal reasoning by induction about the correctness of those functions. (OCaml)",
+            "COS429 Computer Vision (A): Surveys a wide range of topics from level-level vision to high-level recognition. (Python)"
         ]
     },
     "MMC":{

@@ -15,6 +15,8 @@ import {ReactComponent as Pawn} from '../images/pawn.svg';
 import {ReactComponent as Download} from '../images/download.svg';
 import {ReactComponent as Stocks} from '../images/stocks.svg';
 import {ReactComponent as Spotifind} from '../images/Spotifind.svg';
+import {ReactComponent as Fonts} from '../images/fonts.svg';
+import {ReactComponent as Parallel} from '../images/parallel.svg';
 
 const icons = {
     "Spotifind":[
@@ -64,7 +66,15 @@ const icons = {
     "Stocks":[
         <Stocks className="Icon" style={{"stroke": "#B1E5F2"}}/>,
         "#B1E5F2"
-    ]
+    ],
+    "Fonts":[
+        <Fonts className="Icon" style={{"stroke": "#a0c4ff"}}/>,
+        "#a0c4ff"
+    ],
+    "Parallel":[
+        <Parallel className="Icon" style={{"stroke": "#ffadad"}}/>,
+        "#ffadad"
+    ],
 }
 
 // const calc = (x, y) => [-(y - window.innerHeight / 2) / 100, (x - window.innerWidth /2) /100, 1.1];

@@ -35,9 +35,9 @@ export default class About extends React.Component{
                                 </a>!)
                             </p>
                             <p style={{"text-indent": "1em"}}>
-                                I'm also interested in academic fields like natural language processing and computer vision, both of which I would like to conduct research in in the future.
+                                I'm also currently doing research Natural Language Processing, specifically in Open Domain Question Answering, with Professor Danqi Chen and Chris Sciavolino.
                             </p>
-                            <p style={{"text-indent": "1em"}}>Outside of class, I serve as the Careers Chair on Princeton ACM, and I'm also an avid reader (currently reading 86 by Asato Asato) and badminton player.</p>
+                            <p style={{"text-indent": "1em"}}>Outside of class, I serve as the Careers Chair on Princeton ACM, and I'm also an avid reader (currently reading 86 by Asato Asato) and badminton player. I also recently picked up embroidery as a hobby!</p>
                         </animated.div>)
                     }
                 </Transition>

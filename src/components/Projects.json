@@ -1,4 +1,31 @@
  {
+    "Font Generation":{
+        "title": "Font Generation",
+        "url": "https://github.com/howard-yen/cos429-finalproject",
+        "icon": "Fonts",
+        "description": "For our final project in Computer Vision, we trained a Deep Convolutional Neural Network consisted of an autoencoder and a discriminator that takes in one letter of a certain style and outputs a full alphabet with a consistent, matching style. We trained the model on fonts from Google Fonts, where we converted ttf to png, and the model was able to output all capitalized letters in consistent and matching style when only inputting an image of the letter R.",
+        "others": {
+
+        }
+    },
+    "Operating System":{
+        "title": "Operating System",
+        "url": "https://www.cs.princeton.edu/courses/archive/fall20/cos318/projects.html",
+        "icon": "Terminal",
+        "description": "A series of project in the class Operating Systems, where we progressively built up our own opearting system. The OS include: a bootloader, a preemptive scheduler using synchronization primitives, inter-processing communcation using mailboxes, process management, virtual memory with Second Chance paging policy and also Not Recently Used page replacement algorithm, and a file system",
+        "others":{
+            "Note": "Code is not public due to class policy but available upon request"
+        }
+    },
+    "Parallel Sequences":{
+        "title": "Parallel Sequences",
+        "url": "https://www.cs.princeton.edu/courses/archive/fall20/cos326/ass/a7.php",
+        "icon": "Parallel",
+        "description": "In this Functional Programming assignment, we applied functional map-reduce abstraction to search engine indexing by building an inverted index as well as geographic queries using cumulative sums. We also performed work and span analysis on the resulting program to assess the use of parallel schemes in our program.",
+        "others":{
+            "Note": "Code is not public due to class policy but available upon request"
+        }
+    },
     "spotifind":{
         "title": "spotifind",
         "url": "https://github.com/mathewjhan/spotifind",
@@ -50,7 +77,7 @@
         "icon": "Photo",
         "description": "An assignment for the class COS226: Algorithms and Data Structures. The goal was to find the best path in an image to remove and remove them dynamically.\nThe best horizontal/vertical path in a photo is one that has the least energy changes, where the weight of the edges are the square differences between the rgb values of each pixel. I initially implemented Dijkstra's algorithm in Java to find such paths and then optimized it with topological sort.",
         "others":{
-            "Note": "Code not available publicly due to class policies but available upon request"
+            "Note": "Code is not public due to class policy but available upon request"
         }
     },
     "Burrows-Wheeler":{
@@ -59,7 +86,7 @@
         "icon": "Compressed",
         "description": "An assignment for the class COS226: Algorithms and Data Structures. This is an implementation of the Burrows-Wheeler data compression algorithm in Java.\nThis consisted of Burrows-Wheeler Transform and move-to-front encoding. To do this efficiently, I used most significant digit sort to construct a circular array which contains optimized references to the original string that is to be compressed.",
         "others":{
-            "Note": "Code not available publicly due to class policies but available upon request"
+            "Note": "Code is not public due to class policy but available upon request"
         }
     },
     "Unix Shell":{
@@ -68,7 +95,7 @@
         "icon": "Terminal",
         "description": "An assignment for the class COS217: Introduction to Programming Systems. My partner and I designed a basic Unix Shell in C.\nThis contains a lexical analyzer and a syntactic analyzer which parse the input command and determine if they are valid, and also handling for internal and external commands, input/output redirections, and signals.",
         "others":{
-            "Note": "Code not available publicly due to class policies but available upon request"
+            "Note": "Code is not public due to class policy but available upon request"
         }
     },
     "Twitter: Bull or Bear":{
