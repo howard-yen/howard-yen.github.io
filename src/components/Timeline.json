@@ -1,7 +1,36 @@
 {
+    "JuniorFall": {
+        "title": "Princeton Univeristy 3rd Year Fall",
+        "date": "August 2021 - Present",
+        "position": "Bachelor's in B.S.E. Computer Science",
+        "location": "Princeton, New Jersey",
+        "icon": "Princeton",
+        "link": "https://www.cs.princeton.edu/",
+        "description":[
+            "Intended certificates in Robotics and Intelligent System and Statistics and Machine Learning",
+            "Coursework: Junior Independent Work, Embodied Language Understanding, Advanced Computer Vision",
+            "COS397 Junior Independent Work: Year-long independent work project advised by Danqi Chen and Jinhyuk Lee. My project focuses on Open-Domain Question Answering and investigating ways to allow models to answer questions in different granularities.",
+            "COS597F Advanced Topics in Computer Science: Embodied Language Understanding:  This seminar studies the latest research in the area of embodied language understanding, to develop artificial agents that can understand and generate natural language in the context of extra-linguistic signals. The course revolves around papers assigned for reading, and students complete a project.",
+            "COS529 Advanced Computer Vision: Advanced topics in computer vision, with a focus on recent methods and current research. Topics include 3D vision, recognition, and the intersection of computer vision and other fields.",
+            "Awards: Sharpio Prize for Academic Excellence 2021"
+        ]
+    },
+    "Facebook":{
+        "title": "Facebook AI Applied Research",
+        "date": "May 2021 - August 2021",
+        "position": "Software Engineering Intern",
+        "location": "Menlo Park, California (Remote)",
+        "icon": "Facebook",
+        "link": "https://ai.facebook.com/",
+        "description":[
+            "Interned on the Privacy ML team at the Responsible AI org. Worked on researching and implementing sketching based gradient approximation and compression algorithm called FetchSGD in Python & PyTorch to optimize client-server communication in Federated Learning (FL) setup",
+            "Achieved more than 80% gradient compression rate with less than 5% drop in performance on computer vision and natural language datasets like CIFAR10, CelebA, and Sent140 that are competitive with state-of-the-art FL training algorithms",
+            "Worked closely with other engineers to refactored the code base and design new interfaces for the FL library to be more generic to accommodate new algorithms like FetchSGD"
+        ]
+    },
     "SophomoreSpring":{
         "title": "Princeton University 2nd Year Spring",
-        "date": "February 2021 - Present",
+        "date": "February 2021 - May 2021",
         "position": "Bachelor's in B.S.E. Computer Science",
         "location": "Princeton, New Jersey",
         "icon": "Princeton",
@@ -9,10 +38,11 @@
         "description":[
             "Intended certificates in Robotics and Intelligent System and Statistics and Machine Learning",
             "Coursework: Advanced Programming Techniques, Natural Language Processing, Economics and Computing, Probability and Stochastic Systems",
-            "COS333 Advanced Programming Techniques: Students learn and practice common programming techniques like designing, debuggin and testing, and maintaining software by developing an app.",
-            "COS484 Natural Language Processing: Covers standard frameworks for dealing with natural language as well as algorithms and techniques to solve various NLP problems, including recent deep learning approaches.(Python)",
-            "COS445 Economics and Computing: Focus on mathematical and computational tools involved in the interaction of economics and computation.",
-            "ORF309 Probability and Stochastic Systems: basic principles of probability; Lifetimes and reliability, Poisson processes; random walks; Brownian motion; branching processes; Markov chains."
+            "COS333 Advanced Programming Techniques (A): Students learn and practice common programming techniques like designing, debuggin and testing, and maintaining software by developing an app.",
+            "COS484 Natural Language Processing (A): Covers standard frameworks for dealing with natural language as well as algorithms and techniques to solve various NLP problems, including recent deep learning approaches.(Python)",
+            "COS445 Economics and Computing (A): Focus on mathematical and computational tools involved in the interaction of economics and computation.",
+            "ORF309 Probability and Stochastic Systems (A): basic principles of probability; Lifetimes and reliability, Poisson processes; random walks; Brownian motion; branching processes; Markov chains.",
+            "Awards: ICPC 2021 North America Finalists"
         ]
     },
     "PrincetonCOS226":{
@@ -58,7 +88,7 @@
         "title": "Map My Customers",
         "date": "June - August 2020",
         "position": "Machine Learning Intern",
-        "location": "New York, New York(Remote)",
+        "location": "New York, New York (Remote)",
         "icon": "MMC",
         "link": "https://mapmycustomers.me/",
         "description": [
