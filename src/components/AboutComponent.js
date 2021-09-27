@@ -35,9 +35,13 @@ export default class About extends React.Component{
                                 </a>!)
                             </p>
                             <p style={{"text-indent": "1em"}}>
-                                I'm also currently part of the Princeton Natural Language Process(NLP) group, where I do research in Open Domain Question Answering, advised by Professor Danqi Chen and Jinhyuk Lee.
+                                I'm also currently part of the&nbsp;
+                                <a className="external" href="https://princeton-nlp.github.io/" title="Princeton NLP Group" target="_blank" rel="noopener noreferrer">
+                                    Princeton Natural Language Process(NLP) group
+                                </a>
+                                , where I do research in Open Domain Question Answering and DensePhrases, advised by Professor Danqi Chen and Jinhyuk Lee.
                             </p>
-                            <p style={{"text-indent": "1em"}}>Outside of class, I serve as the Vice Chair at Princeton ACM, and I'm also an avid (but beginner) badminton player and swimmer. I also enjoy watching and reading about cinemas/films and media (due to the classes Chinese Cinema and Japanese Film and Media). I also love cooking a lot, especially making noodles and curry!</p>
+                            <p style={{"text-indent": "1em"}}>Outside of class, I serve as the Vice Chair at Princeton ACM, and I'm also an avid (but beginner) badminton player and swimmer. I also enjoy watching and reading about cinemas/films, which arose from the classes Chinese Cinema and Japanese Film and Media. I also love cooking a lot, especially making noodles and curry!</p>
                         </animated.div>)
                     }
                 </Transition>
@@ -56,7 +60,7 @@ export default class About extends React.Component{
                         >
                             <img
                             className="AboutPic"
-                            src="/about.jpeg"
+                            src="/about_small.jpg"
                             alt="about"/>
                         </animated.div>)
                     }
