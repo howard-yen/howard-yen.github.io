@@ -29,15 +29,15 @@ export default class About extends React.Component{
                             className="AboutText"
                         >
                             <h2>Hi I'm Howard!</h2>
-                            <p style={{"text-indent": "1em"}}>I am a sophomore studying Computer Science at Princeton University, and I love creating apps and projects (check them out on my&nbsp;
+                            <p style={{"text-indent": "1em"}}>I am a junior studying Computer Science at Princeton University, and I love creating apps and projects (check them out on my&nbsp;
                                 <a className="external" href="https://github.com/howard-yen/" title="github" target="_blank" rel="noopener noreferrer">
                                     github
                                 </a>!)
                             </p>
                             <p style={{"text-indent": "1em"}}>
-                                I'm also currently doing research Natural Language Processing, specifically in Open Domain Question Answering, with Professor Danqi Chen and Chris Sciavolino.
+                                I'm also currently part of the Princeton Natural Language Process(NLP) group, where I do research in Open Domain Question Answering, advised by Professor Danqi Chen and Jinhyuk Lee.
                             </p>
-                            <p style={{"text-indent": "1em"}}>Outside of class, I serve as the Careers Chair on Princeton ACM, and I'm also an avid reader (currently reading 86 by Asato Asato) and badminton player. I also recently picked up embroidery as a hobby!</p>
+                            <p style={{"text-indent": "1em"}}>Outside of class, I serve as the Vice Chair at Princeton ACM, and I'm also an avid (but beginner) badminton player and swimmer. I also enjoy watching and reading about cinemas/films and media (due to the classes Chinese Cinema and Japanese Film and Media). I also love cooking a lot, especially making noodles and curry!</p>
                         </animated.div>)
                     }
                 </Transition>
@@ -56,7 +56,7 @@ export default class About extends React.Component{
                         >
                             <img
                             className="AboutPic"
-                            src="/about.png"
+                            src="/about.jpeg"
                             alt="about"/>
                         </animated.div>)
                     }
