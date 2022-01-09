@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm deploy`
+### `npm run deploy`
 
 Deploy the website to the designated github url.
 
