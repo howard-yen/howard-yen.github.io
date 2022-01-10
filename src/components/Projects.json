@@ -1,4 +1,40 @@
  {
+    "UnderwaterColorization":{
+        "title": "Exploring Underwater Image Enhancement",
+        "url": "/colorization.pdf",
+        "icon": "Scuba",
+        "description": "Underwater image enhancement seeks to augment the image quality of photos taken underwater by correcting for artifacts like backscatter, light attenuation, and other sources of haze. We approach the task of correcting images taken underwater by exploring both a two-stage convolutional network based approach, as well as a large-scale pre-trained transformer based approach using VAEs.",
+        "others": {
+
+        }
+    },
+    "RTFM BERT":{
+        "title": "Read to Fight Monsters: FiLM to BERT",
+        "url": "https://github.com/howard-yen/RTFM",
+        "icon": "Game",
+        "description": "In previous reinforcement learning setups, the most commonly used models are typically transformers and convolution layers trained from scratch, but we are interested in using large pretrained models like BERT instead. Furthermore, we want to amend the RTFM framework (Zhong 2020) by adding different world representations such as all text and text + image. Finally, we test BERT models on this framework by training BERT-Tiny with different setups.",
+        "others": {
+
+        }
+    },
+    "Universal Triggers":{
+        "title": "Universal Triggers",
+        "url": "https://github.com/howard-yen/universal-triggers",
+        "icon": "Attack",
+        "description": "In this project, we analyze universal adversarial triggers on various auto-regressive generative language models using the setup and methods from (Wallace 2019). We analyzed the models GPT2, DistilGPT2, GPTNeo, and XLNet. For each model, we first generate 10 trigger tokens, and select the tokens with the lowest loss on the handwritten inputs, and then use the trigger to generate 100 output on all 4 models. Finally, we manually analyze  all generated outputs for racist and/or offensive text.",
+        "others": {
+
+        }
+    },
+    "TigerResearch":{
+        "title": "TigerResearch",
+        "url": "https://tigerresearch.herokuapp.com/",
+        "icon": "Matching",
+        "description": "This is a project for the class COS333 and was created in coperation with Princeton's Office of Undergraduate Research(OUR). We created a web app that allow undergrads to browse and search all the research mentors available in ReMatch, a research pairing program hosted by OUR. It also lets the mentors to browse and search the undergrads who have signed up for the program. Lastly, it also allow the program administrators to automatically pair mentors and mentees using a matching algoithm given each mentee's prefernces and manually make edits.",
+        "others": {
+
+        }
+    },
     "Font Generation":{
         "title": "Font Generation",
         "url": "https://github.com/howard-yen/cos429-finalproject",

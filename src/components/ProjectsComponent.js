@@ -17,6 +17,10 @@ import {ReactComponent as Stocks} from '../images/stocks.svg';
 import {ReactComponent as Spotifind} from '../images/Spotifind.svg';
 import {ReactComponent as Fonts} from '../images/fonts.svg';
 import {ReactComponent as Parallel} from '../images/parallel.svg';
+import {ReactComponent as Matching} from '../images/matching.svg';
+import {ReactComponent as Attack} from '../images/attack.svg';
+import {ReactComponent as Game} from '../images/game.svg';
+import {ReactComponent as Scuba} from '../images/scuba.svg';
 
 const icons = {
     "Spotifind":[
@@ -74,6 +78,22 @@ const icons = {
     "Parallel":[
         <Parallel className="Icon" style={{"stroke": "#ffadad"}}/>,
         "#ffadad"
+    ],
+    "Matching":[
+        <Matching className="Icon" style={{"stroke": "#ffd6a5", "fill": "#ffd6a5"}}/>,
+        "#ffd6a5"
+    ],
+    "Attack":[
+        <Attack className="Icon" style={{"stroke": "#BDB2FF"}}/>,
+        "#BDB2FF"
+    ],
+    "Game":[
+        <Game className="Icon" style={{"stroke": "#ffc6ff"}}/>,
+        "#ffc6ff"
+    ],
+    "Scuba":[
+        <Scuba className="Icon" style={{"stroke": "#B1E5F2"}}/>,
+        "#B1E5F2"
     ],
 }
 

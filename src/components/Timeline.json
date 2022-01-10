@@ -1,7 +1,20 @@
 {
+    "JuniorSpring": {
+        "title": "Princeton Univeristy 3rd Year Spring",
+        "date": "January 2022 - Present",
+        "position": "Bachelor's in B.S.E. Computer Science",
+        "location": "Princeton, New Jersey",
+        "icon": "Princeton",
+        "link": "https://www.cs.princeton.edu/",
+        "description":[
+            "Intended certificates in Robotics and Intelligent System and Statistics and Machine Learning",
+            "Coursework: Junior Independent Work, Information Security.",
+            "COS397 Junior Independent Work: Year-long independent work project advised by Danqi Chen and Jinhyuk Lee. My project focuses on Open-Domain Question Answering and investigating ways to allow models to answer questions in different granularities."
+        ]
+    },
     "JuniorFall": {
         "title": "Princeton Univeristy 3rd Year Fall",
-        "date": "August 2021 - Present",
+        "date": "August 2021 - December 2021",
         "position": "Bachelor's in B.S.E. Computer Science",
         "location": "Princeton, New Jersey",
         "icon": "Princeton",
