@@ -14,8 +14,8 @@ export default class Page extends React.Component{
             currentPage: 0,
             pages:[
                 "About",
-                "Projects",
                 "Timeline",
+                "Projects",
                 "Contact"
             ],
             menuOpen: desktop,

@@ -42,33 +42,33 @@
             }
         ]
     },
-    "The Museum of Illusions":{
+    "Colo Formal 2022":{
         "Photos":[
             {
-                "file": "Museum1.png",
+                "file": "ColoFormal2022_3.png",
                 "offset": 0.2,
                 "left": "20%",
                 "width": "60%",
                 "speed": 0
             },
             {
-                "file":"Museum3.jpg",
-                "offset": 0.15,
-                "left": "65%",
-                "width": "30%",
+                "file": "ColoFormal2022_1.png",
+                "offset": 0.1,
+                "left": "70%",
+                "width": "25%",
                 "speed": -0.1
             },
             {
-                "file":"Museum2.jpg",
+                "file": "ColoFormal2022_2.png",
                 "offset": 0.7,
                 "left": "5%",
-                "width": "20%",
+                "width": "25%",
                 "speed": -0.1
             }
         ],
         "Text":[
             {
-                "text": "The Museum of Illusions",
+                "text": "Colonial Formals 2022",
                 "size": "2em",
                 "offset": 0.05,
                 "left": "20%",
@@ -139,14 +139,14 @@
     "Freshmen Sophomore Winter Social":{
         "Photos":[
             {
-                "file": "Formal2.png",
+                "file": "WinterFormal2.png",
                 "offset": 0,
                 "left": "50%",
                 "width": "40%",
                 "speed": 0.2
             },
             {
-                "file": "Formal1.png",
+                "file": "WinterFormal1.png",
                 "offset": 0.3,
                 "left": "10%",
                 "width": "50%",
@@ -155,10 +155,10 @@
         ],
         "Text":[
             {
-                "text": "Winter Social",
+                "text": "Winter Social 2020",
                 "size": "2em",
                 "offset": 0.5,
-                "left": "70%",
+                "left": "65%",
                 "speed": 0.2
             }
         ],
@@ -172,7 +172,7 @@
             }
         ]
     },
-    "Graduation":{
+    "High School Graduation":{
         "Photos":[
             {
                 "file":"graduation_group.png",

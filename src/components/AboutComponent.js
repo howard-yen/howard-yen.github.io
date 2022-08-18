@@ -29,19 +29,23 @@ export default class About extends React.Component{
                             className="AboutText"
                         >
                             <h2>Hi I'm Howard!</h2>
-                            <p style={{"text-indent": "1em"}}>I am a junior studying Computer Science at Princeton University, and I love creating apps and projects (check them out on my&nbsp;
-                                <a className="external" href="https://github.com/howard-yen/" title="github" target="_blank" rel="noopener noreferrer">
-                                    github
-                                </a>!)
+                            <p style={{"text-indent": "1em"}}>
+                                I'm a senior studying Computer Science at Princeton University. I'm a member of the&nbsp;
+                                <a className="external" href="https://princeton-nlp.github.io/" title="Princeton NLP Group" target="_blank" rel="noopener noreferrer">
+                                    Princeton Natural Language Processing Group
+                                </a>. 
+                                My advisor is Professor&nbsp;
+                                <a className="external" href="https://www.cs.princeton.edu/~danqic/" title="Danqi Chen" target="_blank" rel="noopener noreferrer">
+                                    Danqi Chen
+                                </a>, and my research interests includes practical applications of NLP (e.g. open-domain question answering) and generalization and robustness of large language models.
                             </p>
                             <p style={{"text-indent": "1em"}}>
-                                I'm also currently part of the&nbsp;
-                                <a className="external" href="https://princeton-nlp.github.io/" title="Princeton NLP Group" target="_blank" rel="noopener noreferrer">
-                                    Princeton Natural Language Process(NLP) group
-                                </a>
-                                , where I do research in Open Domain Question Answering and DensePhrases, advised by Professor Danqi Chen and Jinhyuk Lee.
+                                In my free time, I like to create apps (check them out on my&nbsp;
+                                <a className="external" href="https://github.com/howard-yen/" title="github" target="_blank" rel="noopener noreferrer">
+                                    github
+                                </a>!).
+                                I used to serve as the Vice Chair at the Princeton Association of Computing Machinery(ACM), and I'm an avid (but beginner) badminton player. I also enjoy cooking, reading, and watching cinemas/films.
                             </p>
-                            <p style={{"text-indent": "1em"}}>Outside of class, I serve as the Vice Chair at Princeton ACM, and I'm also an avid (but beginner) badminton player and swimmer. I also enjoy watching and reading about cinemas/films, which arose from the classes Chinese Cinema and Japanese Film and Media. I also love cooking a lot, especially making noodles and curry!</p>
                         </animated.div>)
                     }
                 </Transition>

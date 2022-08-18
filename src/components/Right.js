@@ -31,13 +31,13 @@ export default class Right extends React.Component{
 
                     </scroll-page>
 
-                    <scroll-page id="Projects" className="Page">
-                        <ProjectsComponent/>
+                    <scroll-page id="Timeline" className="Page">
+                        <TimelineComponent/>
 
                     </scroll-page>
 
-                    <scroll-page id="Timeline" className="Page">
-                        <TimelineComponent/>
+                    <scroll-page id="Projects" className="Page">
+                        <ProjectsComponent/>
 
                     </scroll-page>
 

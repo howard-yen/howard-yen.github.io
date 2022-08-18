@@ -1,15 +1,45 @@
 {
+    "Meta2022":{
+        "title": "Meta Reality Labs",
+        "date": "May 2022 - August 2022",
+        "position": "Software Engineering Intern",
+        "location": "Seattle/Redmond, Washington",
+        "icon": "RealityLabs",
+        "link": "https://about.facebook.com/realitylabs/",
+        "description":[
+            "Interned on the Facebook Assistant AI Understanding team at Meta Reality Labs. Worked on Automatic Speech Recognition(ASR) and Natural Language Understanding(NLU).",
+            "Implemented data augmentation interface in the internal Automatic Speech Recognition (ASR) & Natural Language Understanding (NLU) library using PyTorch for augmentation in both the audio and the text dimension.",
+"Achieved more than 80% gradient compression rate with less than 5% drop in performance on computer vision and natural language datasets like CIFAR10, CelebA, and Sent140 that are competitive with state-of-the-art FL training algorithms",
+"Investigated the effectiveness of data augmentation in the audio vs. text dimension and on low-resource training sets."
+
+        ]
+    },
     "JuniorSpring": {
         "title": "Princeton Univeristy 3rd Year Spring",
-        "date": "January 2022 - Present",
+        "date": "January 2022 - May 2022",
         "position": "Bachelor's in B.S.E. Computer Science",
         "location": "Princeton, New Jersey",
         "icon": "Princeton",
         "link": "https://www.cs.princeton.edu/",
         "description":[
             "Intended certificates in Robotics and Intelligent System and Statistics and Machine Learning",
-            "Coursework: Junior Independent Work, Information Security.",
-            "COS397 Junior Independent Work: Year-long independent work project advised by Danqi Chen and Jinhyuk Lee. My project focuses on Open-Domain Question Answering and investigating ways to allow models to answer questions in different granularities."
+            "Coursework: Junior Independent Work, Information Security, Distributed Systems, ",
+            "COS397 Junior Independent Work (A) Professor Danqi Chen: Year-long independent work project advised by Danqi Chen and Jinhyuk Lee. My project focuses on Open-Domain Question Answering and investigating ways to allow models to answer questions in different granularities.",
+            "COS432 Information Security (A+) Professor Prateek Mittal: Covered topics in basic cryptography, system security, network security, firewalls, malware, web security, privacy technologies, cryptocurrencies, human factors, physical security, economics, and ethics of security..",
+            "COS418 Distributed Systems (A) Professor Michael Freedman: Topics include server design, network programming, naming, concurrency and locking, consistency models and techniques, and fault tolerance. Modern techniques and systems employed at some of the largest Internet sites (e.g., Google, Facebook, Amazon) will also be covered."
+        ]
+    },
+    "PrincetonCOS484":{
+        "title": "Princeton University Computer Science Department",
+        "date": "February 2022 - May 2022",
+        "position": "COS 484: Natural Language Processing Teaching Assistant",
+        "location": "Princeton, New Jersey",
+        "icon": "Princeton",
+        "link": "https://princeton-nlp.github.io/cos484/",
+        "description":[
+            "Grades the coding assignments for the class COS 484: Natural Language Processing, which had approximately 100 students, and each of the 5 homework assignments contains both a theory and coding section.",
+            "Provide feedback to students' theory and coding assignments on correctness and efficiency on topics like LSTM networks and Markov Chain.",
+            "Answer students' questions on class forum about general NLP subjects like generative vs. discriminative networks."
         ]
     },
     "JuniorFall": {
@@ -21,14 +51,14 @@
         "link": "https://www.cs.princeton.edu/",
         "description":[
             "Intended certificates in Robotics and Intelligent System and Statistics and Machine Learning",
-            "Coursework: Junior Independent Work, Embodied Language Understanding, Advanced Computer Vision",
-            "COS397 Junior Independent Work: Year-long independent work project advised by Danqi Chen and Jinhyuk Lee. My project focuses on Open-Domain Question Answering and investigating ways to allow models to answer questions in different granularities.",
-            "COS597F Advanced Topics in Computer Science: Embodied Language Understanding:  This seminar studies the latest research in the area of embodied language understanding, to develop artificial agents that can understand and generate natural language in the context of extra-linguistic signals. The course revolves around papers assigned for reading, and students complete a project.",
-            "COS529 Advanced Computer Vision: Advanced topics in computer vision, with a focus on recent methods and current research. Topics include 3D vision, recognition, and the intersection of computer vision and other fields.",
+            "Coursework: Junior Independent Work, Embodied Language Understanding, Advanced Computer Vision, Chinese Cinema, Japanese Film and Media",
+            "COS397 Junior Independent Work (A) Professor Danqi Chen: Year-long independent work project advised by Danqi Chen and Jinhyuk Lee. My project focuses on Open-Domain Question Answering and investigating ways to allow models to answer questions in different granularities.",
+            "COS597F Advanced Topics in Computer Science (A) Professor Karthik Narasimhan: Embodied Language Understanding: This seminar studies the latest research in the area of embodied language understanding, to develop artificial agents that can understand and generate natural language in the context of extra-linguistic signals. The course revolves around papers assigned for reading, and students complete a project.",
+            "COS529 Advanced Computer Vision (A) Professor Jia Deng: Advanced topics in computer vision, with a focus on recent methods and current research. Topics include 3D vision, recognition, and the intersection of computer vision and other fields.",
             "Awards: Sharpio Prize for Academic Excellence 2021"
         ]
     },
-    "Facebook":{
+    "Facebook2021":{
         "title": "Facebook AI Applied Research",
         "date": "May 2021 - August 2021",
         "position": "Software Engineering Intern",
@@ -51,23 +81,11 @@
         "description":[
             "Intended certificates in Robotics and Intelligent System and Statistics and Machine Learning",
             "Coursework: Advanced Programming Techniques, Natural Language Processing, Economics and Computing, Probability and Stochastic Systems",
-            "COS333 Advanced Programming Techniques (A): Students learn and practice common programming techniques like designing, debuggin and testing, and maintaining software by developing an app.",
-            "COS484 Natural Language Processing (A): Covers standard frameworks for dealing with natural language as well as algorithms and techniques to solve various NLP problems, including recent deep learning approaches.(Python)",
-            "COS445 Economics and Computing (A): Focus on mathematical and computational tools involved in the interaction of economics and computation.",
-            "ORF309 Probability and Stochastic Systems (A): basic principles of probability; Lifetimes and reliability, Poisson processes; random walks; Brownian motion; branching processes; Markov chains.",
+            "COS333 Advanced Programming Techniques (A) Professor Robert Dondero: Students learn and practice common programming techniques like designing, debuggin and testing, and maintaining software by developing an app.",
+            "COS484 Natural Language Processing (A) Professor Danqi Chen and Professor Karthik Narasimhan: Covers standard frameworks for dealing with natural language as well as algorithms and techniques to solve various NLP problems, including recent deep learning approaches.(Python)",
+            "COS445 Economics and Computing (A) Professor Matt Weinberg: Focus on mathematical and computational tools involved in the interaction of economics and computation.",
+            "ORF309 Probability and Stochastic Systems (A) Ramon van Handel: basic principles of probability; Lifetimes and reliability, Poisson processes; random walks; Brownian motion; branching processes; Markov chains.",
             "Awards: ICPC 2021 North America Finalists"
-        ]
-    },
-    "PrincetonCOS226":{
-        "title": "Princeton University Computer Science Department",
-        "date": "February 2020 - Present",
-        "position": "COS 226: Algorithms and Data Structures Grader",
-        "location": "Princeton, New Jersey",
-        "icon": "Princeton",
-        "link": "https://www.cs.princeton.edu/courses/archive/fall20/cos226/",
-        "description":[
-            "Grades the coding assignments for the class COS 226: Algorithms and Data Structures, which has over 150 students per semester and 7 coding  assignments in total, each consists of hundreds of lines of code and explanations",
-            "Analyze students’ codes for their efficiency, style, and clarity, and provide feedback by teaching them good coding practices and more efficient implementations of algorithms and data structures like Binary Search, Deque, and Dijkstra's"
         ]
     },
     "ResInDe":{
@@ -91,10 +109,10 @@
         "link": "https://www.cs.princeton.edu/",
         "description":[
             "Intended certificates in Robotics and Intelligent System and Statistics and Machine Learning",
-            "Coursework: Operating Systems, Functional Programming, Computer Vision",
-            "COS318 Operating Systems (A): Emphasis on the fundamentals of how to design and implement an operating system. (C and x86 Assembly)",
-            "COS326 Functional Programming (A): Programming recursive functions over structured data types and informal reasoning by induction about the correctness of those functions. (OCaml)",
-            "COS429 Computer Vision (A): Surveys a wide range of topics from level-level vision to high-level recognition. (Python)"
+            "Coursework: Operating Systems, Functional Programming, Computer Vision, Intensive Fourth-Year Modern Chinese I, Functional Programming, Advanced General Chemistry: Materials Chemistry",
+            "COS318 Operating Systems (A) Professor Jaswinder Singh and Professor Mohammad Shahrad: Emphasis on the fundamentals of how to design and implement an operating system. (C and x86 Assembly)",
+            "COS326 Functional Programming (A) Professor Andrew Appel and Professor David Walker: Programming recursive functions over structured data types and informal reasoning by induction about the correctness of those functions. (OCaml)",
+            "COS429 Computer Vision (A) Professor Jia Deng and Professor Olga Russakovsky: Surveys a wide range of topics from level-level vision to high-level recognition. (Python)"
         ]
     },
     "MMC":{
@@ -124,6 +142,18 @@
                 "Compile career resources for members to help them prepare for technical interviews"
         ]
     },
+    "PrincetonCOS226":{
+        "title": "Princeton University Computer Science Department",
+        "date": "February 2020 - May 2021",
+        "position": "COS 226: Algorithms and Data Structures Grader",
+        "location": "Princeton, New Jersey",
+        "icon": "Princeton",
+        "link": "https://www.cs.princeton.edu/courses/archive/fall20/cos226/",
+        "description":[
+            "Grades the coding assignments for the class COS 226: Algorithms and Data Structures, which has over 150 students per semester and 7 coding  assignments in total, each consists of hundreds of lines of code and explanations",
+            "Analyze students’ codes for their efficiency, style, and clarity, and provide feedback by teaching them good coding practices and more efficient implementations of algorithms and data structures like Binary Search, Deque, and Dijkstra's"
+        ]
+    },
     "PrincetonFreshmen":{
         "title": "Princeton University 1st Year",
         "date": "August 2019 - May 2020",
@@ -132,10 +162,10 @@
         "icon": "Princeton",
         "link": "https://www.cs.princeton.edu/",
         "description":[
-            "Coursework: Algorithms and Data Structures, Introduction to Programming Systems",
-            "COS226 Algorithms and Data Structures(A): Emphasis on algorithms for sorting, searching, and string processing. Other areas are covered as well: geometric algorithms, graph algorithms, and numerical algorithms. (Java)",
-            "COS217 Introduction to Programming Systems(A): Modular program design, testing, debugging and performance tuning, using system calls, performance style, and assembly language and machine languages. (C and ARM Assembly)",
-            "COS340 Reasoning about Computation(Pass Only): Combinatorics, probability and graph theory covered in the context of computer science applications. ",
+            "Coursework: Algorithms and Data Structures, Introduction to Programming Systems, Reasoning about Computation, Fundementals of Statistics, Introduction to Language and Linguistics, Multivariable Calculus, Linear Algebra with Applications",
+            "COS226 Algorithms and Data Structures (A) Professor Kevin Wayne: Emphasis on algorithms for sorting, searching, and string processing. Other areas are covered as well: geometric algorithms, graph algorithms, and numerical algorithms. (Java)",
+            "COS217 Introduction to Programming Systems (A) Professor Christopher Moretti: Modular program design, testing, debugging and performance tuning, using system calls, performance style, and assembly language and machine languages. (C and ARM Assembly)",
+            "COS340 Reasoning about Computation (Pass Only) Professor Ran Raz: Combinatorics, probability and graph theory covered in the context of computer science applications. ",
             "Awards: 2nd Place at Citadel Terminal Live Princeton vs. Penn"
         ]
     },
@@ -160,9 +190,9 @@
         "icon": "PSHS",
         "link": "https://www.youtube.com/watch?v=EJ2y_8eq0hI",
         "description":[
-            "Achievements: Valedictorian, USA Computing Olympiad Gold Division Finalist, 1st place in Microbiology at Texas Junior Academy of Science, Honorable Mention in Bioinformatics at Dallas Regional Science and Engineering Fair, 4th in Java Programming at BPA Nationals, 1st in C++ Programming at BPA State, 2nd at Computer Science UIL Regionals, National AP Scholars",
+            "Achievements: Valedictorian, USA Computing Olympiad Gold Division Finalist, Honorable Mention in Bioinformatics at Dallas Regional Science and Engineering Fair, 4th in Java Programming at BPA Nationals, 1st in C++ Programming at BPA State, 2nd at Computer Science UIL Regionals, National AP Scholars",
             "Coursework: AP Calculus BC(5), AP Statistics(5), AP Physics C: Mechanics(5), AP Physics C: Electricity and Magnetism(5), AP Macroeconomics(5), AP Microeconomics(5)",
-            "Extracurriculars: Mu Alpha Theta Co-President, Key Club President, Chess Club President, Junior State of America President and State Senator"
+            "Extracurriculars: Mu Alpha Theta Co-President, Key Club President, Chess Club President, Science Fair Club, Junior State of America President and State Senator"
         ]
     }
 }

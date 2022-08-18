@@ -30,7 +30,7 @@
 }
 
 .Left{
-    background-color: #c6e1ee;
+    background-color: #f6fff8;
     color: black;
     transition: 0.5s;
     position: fixed;
@@ -55,7 +55,7 @@
     left: 31vw;
     z-index: 10;
     transition: 0.5s;
-    fill: #ffd6a5;
+    fill: #ffcd90;
 }
 
 a.external{

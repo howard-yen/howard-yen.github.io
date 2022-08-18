@@ -7,6 +7,10 @@
         "url": "https://www.linkedin.com/in/howard-yen/",
         "image": "linkedinlogoblack.png"
     },
+    "twitter":{
+        "url": "https://twitter.com/HowardYen1",
+        "image": "twitterblack.png"
+    },
     "email":{
         "url": "mailto:hyen@princeton.edu",
         "image": "emailiconblack.png"

@@ -43,7 +43,10 @@ export default class Left extends React.Component{
                 <header className="Left-header">
                     <img src={faceshot} alt={'Howard Yen'} width='250px' height='250px'/>
                     <h1 style={{'margin-bottom': '0'}}> Howard Yen</h1>
-                    <p style={{'width': '50%', 'text-align':'center'}}>A passionate coder interested in creating various projects!</p>
+                    <h2 style={{'width': '50%', 'text-align':'center'}}>
+                        {/* A passionate coder interested in creating various projects! */}
+                        颜和光
+                    </h2>
                 </header>
                 <Menu
                     handlePageChange={this.props.handlePageChange}
@@ -52,6 +55,9 @@ export default class Left extends React.Component{
                 />
                 <footer>
                     <BubbleRow />
+                    <p style={{"text-align": "center", "font-size": "0.7em"}}>
+                        Last updated: 8/17/2022
+                    </p>
                 </footer>
             </div>
 

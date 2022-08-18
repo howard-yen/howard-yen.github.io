@@ -87,7 +87,7 @@ export default class ContactsComponent extends React.Component{
                     Contact
                 </h2>
                 <h3>
-                    I'm looking for my next internship in software engineering, machine learning, and/or NLP research, if you have an open position or just want to chat about my projects, feel free to reach out to me at hyen [at] princeton [dot] edu
+                    I'm looking for my next position in NLP research (internship/residency/fulltime), if you have an open position or just want to chat about my projects, feel free to reach out to me at hyen [at] princeton [dot] edu
                 </h3>
                 <h3>You can also find a copy of my resume&nbsp;
                     <a className="external" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
@@ -95,7 +95,7 @@ export default class ContactsComponent extends React.Component{
                     </a>
                 </h3>
                 <p>
-                    Thanks for checking out my website and here are some interesting photos! (use desktop for optimal viewing)
+                    Thanks for checking out my website! Here are some of my favorite photos :) (use desktop for optimal viewing)
                 </p>
                 <Gallery/>
             </div>
