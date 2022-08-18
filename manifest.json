@@ -1,6 +1,6 @@
 {
-  "short_name": "React Website",
-  "name": "Howard Yen's React Website",
+  "short_name": "Howard Yen",
+  "name": "Howard Yen's Website",
   "version": "0.1.0",
   "homepage": "https://howard-yen.github.io/howard-yen.github.io",
   "dependencies": {
@@ -17,7 +17,7 @@
   },
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "yen.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
@@ -38,7 +38,7 @@
     	"predeploy": "yarn run build",
     	"deploy": "gh-pages -d build",
     	"test": "react-scripts test",
-    	"eject": "react-scripts eject",
+    	"eject": "react-scripts eject"
   },
 
   "eslintConfig": {
