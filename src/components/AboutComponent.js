@@ -33,18 +33,18 @@ export default class About extends React.Component{
                                 I'm a senior studying Computer Science at Princeton University. I'm a member of the&nbsp;
                                 <a className="external" href="https://princeton-nlp.github.io/" title="Princeton NLP Group" target="_blank" rel="noopener noreferrer">
                                     Princeton Natural Language Processing Group
-                                </a>. 
+                                </a>.
                                 My advisor is Professor&nbsp;
                                 <a className="external" href="https://www.cs.princeton.edu/~danqic/" title="Danqi Chen" target="_blank" rel="noopener noreferrer">
                                     Danqi Chen
-                                </a>, and my research interests includes practical applications of NLP (e.g. open-domain question answering) and generalization and robustness of large language models.
+                                </a>, and my research interests includes practical applications of NLP (e.g. open-domain question answering) and generalization and efficiency of large language models.
                             </p>
                             <p style={{"text-indent": "1em"}}>
                                 In my free time, I like to create apps (check them out on my&nbsp;
                                 <a className="external" href="https://github.com/howard-yen/" title="github" target="_blank" rel="noopener noreferrer">
                                     github
-                                </a>!).
-                                I used to serve as the Vice Chair at the Princeton Association of Computing Machinery(ACM), and I'm an avid (but beginner) badminton player. I also enjoy cooking, reading, and watching cinemas/films.
+                                </a>!), and play badminton and soccer.
+                                I used to serve as the Vice Chair at the Princeton Association of Computing Machinery(ACM). I also enjoy cooking, reading, and watching cinemas/films.
                             </p>
                         </animated.div>)
                     }
