@@ -46,7 +46,7 @@ export default class About extends React.Component{
                                 <a className="external" href="https://gaotianyu.xyz/about/" title="Tianyu Gao" target="_blank" rel="noopener noreferrer">
                                    Tianyu Gao
                                 </a>.
-                                My research interests includes practical applications of NLP (e.g. information retrieval and open-domain question answering) and generalization and efficiency of large language models.
+                                My research interests includes practical applications of machine learning and natural language processing (e.g. information retrieval and open-domain question answering) as well as generalization and efficiency of large language models.
                             </p>
                             <p style={{"text-indent": "1em"}}>
                                 In my free time, I like to create apps (check them out on my&nbsp;
