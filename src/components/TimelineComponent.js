@@ -66,7 +66,7 @@ export default class TimelineComponent extends React.Component{
                 <h2 style={{'font-size': '300%', "padding": "2%", "width": "auto", "height": "auto"}}>
                     Timeline
                 </h2>
-                <VerticalTimeline style={{'width': '100%'}}>
+                <VerticalTimeline style={{'width': '100%'}} layout={"1-column-left"}>
                     {timeline}
                 </VerticalTimeline>
             </div>

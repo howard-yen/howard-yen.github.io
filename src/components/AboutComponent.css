@@ -24,10 +24,10 @@
     z-index: 2;
     display:block;
     position: relative;
-    width: 40%;
+    width: 50%;
     height: min-content;
     left: 10%;
-    top: 25vh;
+    top: 20vh;
 
     background-color: white;
     color: black;

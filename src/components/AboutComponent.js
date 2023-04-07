@@ -34,23 +34,32 @@ export default class About extends React.Component{
                                 <a className="external" href="https://princeton-nlp.github.io/" title="Princeton NLP Group" target="_blank" rel="noopener noreferrer">
                                     Princeton Natural Language Processing Group
                                 </a>.
-                                My advisor is Professor&nbsp;
+                                At Princeton, I am fortunate to be advised by&nbsp;
                                 <a className="external" href="https://www.cs.princeton.edu/~danqic/" title="Danqi Chen" target="_blank" rel="noopener noreferrer">
-                                    Danqi Chen
-                                </a>, and my research interests includes practical applications of NLP (e.g. open-domain question answering) and generalization and efficiency of large language models.
+                                    Professor Danqi Chen
+                                </a>
+                                &nbsp;and mentored by&nbsp; 
+                                <a className="external" href="https://jhyuklee.github.io/" title="Dr. Jinhyuk Lee" target="_blank" rel="noopener noreferrer">
+                                    Dr. Jinhyuk Lee
+                                </a>
+                                &nbsp;and&nbsp;
+                                <a className="external" href="https://gaotianyu.xyz/about/" title="Tianyu Gao" target="_blank" rel="noopener noreferrer">
+                                   Tianyu Gao
+                                </a>.
+                                My research interests includes practical applications of NLP (e.g. information retrieval and open-domain question answering) and generalization and efficiency of large language models.
                             </p>
                             <p style={{"text-indent": "1em"}}>
                                 In my free time, I like to create apps (check them out on my&nbsp;
                                 <a className="external" href="https://github.com/howard-yen/" title="github" target="_blank" rel="noopener noreferrer">
                                     github
-                                </a>!), and play badminton and soccer.
-                                I used to serve as the Vice Chair at the Princeton Association of Computing Machinery(ACM). I also enjoy cooking, reading, and watching cinemas/films.
+                                </a>!), play badminton, and play soccer.
+                                I used to serve as the Vice Chair of Princeton Association of Computing Machinery(ACM). I also enjoy cooking, reading, and watching cinemas/films.
                             </p>
                         </animated.div>)
                     }
                 </Transition>
 
-                <Transition
+                {/* <Transition
                     native
                     items={this.state.show}
                     from={{opacity: 0}}
@@ -68,7 +77,7 @@ export default class About extends React.Component{
                             alt="about"/>
                         </animated.div>)
                     }
-                </Transition>
+                </Transition> */}
             </div>
         )
     }
