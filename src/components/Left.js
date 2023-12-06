@@ -44,8 +44,10 @@ export default class Left extends React.Component{
                     <img src={faceshot} alt={'Howard Yen'} width='250px' height='250px'/>
                     <h1 style={{'margin-bottom': '0'}}> Howard Yen</h1>
                     <h2 style={{'width': '50%', 'text-align':'center'}}>
-                        {/* A passionate coder interested in creating various projects! */}
-                        颜和光
+                        顏和光
+                    </h2>
+                    <h2 style={{'width': '50%', 'text-align':'center'}}>
+                        hyen [at] princeton [dot] edu
                     </h2>
                 </header>
                 <Menu
@@ -56,7 +58,7 @@ export default class Left extends React.Component{
                 <footer>
                     <BubbleRow />
                     <p style={{"text-align": "center", "font-size": "0.7em"}}>
-                        Last updated: 11/7/2022
+                        Last updated: 12/6/2023
                     </p>
                 </footer>
             </div>

@@ -5,6 +5,7 @@ import AboutComponent from './AboutComponent';
 import ProjectsComponent from './ProjectsComponent';
 import TimelineComponent from './TimelineComponent';
 import ContactsComponent from './ContactsComponent';
+import PublicationComponent from './PublicationsComponent';
 
 export default class Right extends React.Component{
     constructor(props){
@@ -28,22 +29,24 @@ export default class Right extends React.Component{
                 <scroll-container className="Scroller">
                     <scroll-page id="About" className="Page">
                         <AboutComponent/>
-
                     </scroll-page>
 
-                    <scroll-page id="Timeline" className="Page">
-                        <TimelineComponent/>
+                    <scroll-page id="Publications" className="Page">
+                        <PublicationComponent/>
+                    </scroll-page>
 
+
+                    {/* <scroll-page id="Timeline" className="Page">
+                        <TimelineComponent/>
                     </scroll-page>
 
                     <scroll-page id="Projects" className="Page">
                         <ProjectsComponent/>
-
                     </scroll-page>
 
                     <scroll-page id="Contact" className="Page">
                         <ContactsComponent/>
-                    </scroll-page>
+                    </scroll-page> */}
                 </scroll-container>
             </div>
         );
