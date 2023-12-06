@@ -1,6 +1,6 @@
 import React from 'react';
 import BubbleRow from './SocialMediaBubbles';
-import faceshot from '../images/faceshot_circle_black.png';
+import faceshot from '../images/23ThesisPortraits_Square.png';
 
 import Nav from 'react-bootstrap/Nav';
 import './Left.css';
