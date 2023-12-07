@@ -33,7 +33,7 @@ export default class About extends React.Component{
                                 I'm a Masters student studying Computer Science at Princeton University. I'm a member of the&nbsp;
                                 <a className="external" href="https://princeton-nlp.github.io/" title="Princeton NLP Group" target="_blank" rel="noopener noreferrer">
                                     Princeton Natural Language Processing Group
-                                </a> and 
+                                </a> and &nbsp;
                                  <a className="external" href="https://pli.princeton.edu/" title="Princeton Language and Intelligence" target="_blank" rel="noopener noreferrer">
                                     Princeton Language and Intelligence
                                 </a> 
@@ -50,8 +50,8 @@ export default class About extends React.Component{
                                 <a className="external" href="https://gaotianyu.xyz/about/" title="Tianyu Gao" target="_blank" rel="noopener noreferrer">
                                    Tianyu Gao
                                 </a>.
-                                My research interests in developing more grounded and trustworthy language models.
-                                You can find a copy of my CV here
+                                My research interests in developing more grounded and trustworthy language models. My experiences are in benchmarking existing systems, open-domain question answering, and modeling retrieval-augmented language models. 
+                                You can find a copy of my CV&nbsp;
                                 <a className="external" href="/CV.pdf" title="CV" target="_blank" rel="noopener noreferrer">
                                     here
                                 </a>.

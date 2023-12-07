@@ -1,29 +1,27 @@
 import React from 'react';
 import './ProjectsComponent.css';
-import publications from "./Publications.json";
+import all_publications from "./Publications.json";
 
 function Linked({ name, item }) {
-    if (item == null || item == "" || item == " "){
+    if (item == null || item === "" || item === " "){
         return null;
     }
     return <a className="external" href={item} title={name} target="_blank" rel="noopener noreferrer"> [{name}] </a>
 }
 
 function Card(props) {
+    console.log(props.publication)
     return(
             <div
-                className="Card"
+                className="PublicationCard"
                 // onMouseMove={({clientX: x, clientY: y}) => set({xys: calc(x, y)})}
-                onClick={() => window.open(props.project.url, "_blank")}
             >
-                <h2>{props.project.title}</h2>
                 <div className="ProjectText">
-                    {props.project.description.split('\n').map((item, i) => <p key={i} style={{"text-indent":"2em", "margine-top": 0}}>{item}</p>)}
+                    {props.publication.text}
+                    <Linked name="Paper" item={props.publication.paper}/>
+                    <Linked name="Code" item={props.publication.code}/>
+                    <Linked name="Blog" item={props.publication.blog}/>
                 </div>
-                <Linked name="Paper" item={props.project.paper}/>
-                <Linked name="Code" item={props.project.code}/>
-                <Linked name="Blog" item={props.project.blog}/>
-
             </div>
     );
 }
@@ -39,21 +37,22 @@ export default class Publications extends React.Component{
     makePublications = () =>{
         const publications = [];
 
-        for(let p in publications){
-            publications.push(<Card key={publications[p]["title"]} project={publications[p]}/>);
+        for(let p in all_publications){
+            publications.push(<Card key={p} publication={all_publications[p]}/>);
         }
 
         return [...publications];
     }
 
     render(){
+        console.log("hihihi")
         const publications = this.makePublications();
         return(
             <div className="Publications">
                 <h2 style={{'font-size': '300%'}}>
                     Publications
                 </h2>
-                <div className="CardContainer">
+                <div className="PublicationContainer">
                     {publications}
                 </div>
             </div>

@@ -1,7 +1,8 @@
 .About{
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    min-height: auto;
+    margin: 10%;
     /* background-image: url("../images/about.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -11,7 +12,7 @@
 .AboutPic{
     display: block;
     position: absolute;
-    top: 10vh;
+    top: 10%;
     left: 50%;
     border: 1em solid white;
     z-index: 1;
@@ -22,19 +23,19 @@
 
 .AboutText{
     z-index: 2;
-    display:block;
+    display: block;
     position: relative;
-    width: 50%;
+    width: 60%;
     height: min-content;
-    left: 10%;
-    top: 20vh;
+    /* left: 10%; */
+    /* top: 10vh; */
 
     background-color: white;
     color: black;
     /* color: white; */
     /* transition: all 0.3 ease-out; */
-    opacity: 1;
-    border-radius: 3%;
+    /* opacity: 1; */
+    /* border-radius: 3%; */
     box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.3);
     border: 1em solid white;
 }

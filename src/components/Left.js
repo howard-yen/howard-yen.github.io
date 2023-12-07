@@ -46,9 +46,9 @@ export default class Left extends React.Component{
                     <h2 style={{'width': '50%', 'text-align':'center'}}>
                         顏和光
                     </h2>
-                    <h2 style={{'width': '50%', 'text-align':'center'}}>
+                    <div style={{'width': '50%', 'text-align':'center'}}>
                         hyen [at] princeton [dot] edu
-                    </h2>
+                    </div>
                 </header>
                 <Menu
                     handlePageChange={this.props.handlePageChange}
