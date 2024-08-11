@@ -30,34 +30,38 @@ export default class About extends React.Component{
                         >
                             <h2>Hi I'm Howard!</h2>
                             <p style={{"text-indent": "1em"}}>
-                                I'm a Masters student studying Computer Science at Princeton University. I'm a member of the&nbsp;
+                                I'm a Computer Science PhD student at Princeton University, where I also obtained my BSE in 2023. I'm part of the&nbsp;
                                 <a className="external" href="https://princeton-nlp.github.io/" title="Princeton NLP Group" target="_blank" rel="noopener noreferrer">
                                     Princeton Natural Language Processing Group
-                                </a> and &nbsp;
+                                </a> and&nbsp;
                                  <a className="external" href="https://pli.princeton.edu/" title="Princeton Language and Intelligence" target="_blank" rel="noopener noreferrer">
                                     Princeton Language and Intelligence
                                 </a> 
                                 .
-                                At Princeton, I am fortunate to be advised by&nbsp;
+                                I am fortunate to be advised by&nbsp;
                                 <a className="external" href="https://www.cs.princeton.edu/~danqic/" title="Danqi Chen" target="_blank" rel="noopener noreferrer">
                                     Professor Danqi Chen
                                 </a>
-                                &nbsp;and mentored by&nbsp; 
+                                .&nbsp;
+                                {/* &nbsp;and mentored by&nbsp; 
                                 <a className="external" href="https://jhyuklee.github.io/" title="Dr. Jinhyuk Lee" target="_blank" rel="noopener noreferrer">
                                     Dr. Jinhyuk Lee
                                 </a>
                                 &nbsp;and&nbsp;
                                 <a className="external" href="https://gaotianyu.xyz/about/" title="Tianyu Gao" target="_blank" rel="noopener noreferrer">
                                    Tianyu Gao
-                                </a>.
-                                My research interests in developing more grounded and trustworthy language models. My experiences are in benchmarking existing systems, open-domain question answering, and modeling retrieval-augmented language models. 
+                                </a>. */}
+                            </p>
+                            <p style={{"text-indent": "1em"}}>
+                                My research interests are in developing better grounded and more trustworthy language models.
+                                In the past, my works involve benchmarking and building better retrieval systems and language models. 
                                 You can find a copy of my CV&nbsp;
                                 <a className="external" href="/CV.pdf" title="CV" target="_blank" rel="noopener noreferrer">
                                     here
                                 </a>.
                             </p>
                             <p style={{"text-indent": "1em"}}>
-                                In my free time, I like to read, cook, and play soccer.
+                                In my free time, I like to read, cook, and run.
                                 I used to serve as the Vice Chair of Princeton Association of Computing Machinery(ACM). 
                             </p>
                         </animated.div>)

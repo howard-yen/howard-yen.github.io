@@ -1,21 +1,26 @@
 [
     {
-        "text": "Howard Yen, Tianyu Gao, and Danqi Chen. Infinite Context Extension for LLM via Cross Attention. To be submitted to ACL 2024, preprint available upon request.",
-        "paper": "",
-        "code": ""
+        "text": "Hongjin Su*, Howard Yen*, Mengzhou Xia*, Weijia Shi, Niklas Muennighoff, Han-yu Wang, Haisu Liu, Quan Shi, Zachary S. Siegel, Michael Tang, Ruoxi Sun, Jinsung Yoon, Sercan O. Arik, Danqi Chen, Tao Yu. BRIGHT: A Realistic and Challenging Benchmark for Reasoning-Intensive Retrieval. Preprint, under review.",
+        "paper": "https://arxiv.org/abs/2407.12883",
+        "code": "https://github.com/xlang-ai/BRIGHT"
     },
     {
-        "text": "Ryan Liu, Howard Yen, Raja Marjieh, Thomas L. Griffiths, and Ranjay Krishna. Optimizing Interpersonal Communication by Simulating Audiences with Large Language Models. Currently under review at ICLR 2024.",
+        "text": "Howard Yen, Tianyu Gao, and Danqi Chen. Long-Context Language Modeling with Parallel Context Encoding. ACL 2024.",
+        "paper": "https://arxiv.org/abs/2402.16617",
+        "code": "https://github.com/princeton-nlp/CEPE"
+    },
+    {
+        "text": "Ryan Liu, Howard Yen, Raja Marjieh, Thomas L. Griffiths, and Ranjay Krishna. Optimizing Interpersonal Communication by Simulating Audiences with Large Language Models. Preprint.",
         "paper": "https://arxiv.org/abs/2311.00687",
         "code": "https://github.com/theryanl/EGS"
     },
     {
-        "text": "Tianyu Gao, Howard Yen, Jiatong Yu, and Danqi Chen. Enabling Large Language Models to Generate Text with Citations. In Proc. of EMNLP, 2023.",
+        "text": "Tianyu Gao, Howard Yen, Jiatong Yu, and Danqi Chen. Enabling Large Language Models to Generate Text with Citations. EMNLP 2023.",
         "paper": "https://arxiv.org/abs/2305.14627",
         "code": "https://github.com/princeton-nlp/ALCE"
     },
     {
-        "text": "Howard Yen, Tianyu Gao, Jinhyuk Lee, and Danqi Chen. MoQA: Benchmarking Multi-Type Open-Domain Question Answering. In Proc. of the 3rd Workshop on Dialogue and Conversational Question Answering, 2023.",
+        "text": "Howard Yen, Tianyu Gao, Jinhyuk Lee, and Danqi Chen. MoQA: Benchmarking Multi-Type Open-Domain Question Answering. DialDoc Workshop @ ACL 2023.",
         "paper": "https://aclanthology.org/2023.dialdoc-1.2/",
         "code": "https://github.com/princeton-nlp/MoQA"
     }

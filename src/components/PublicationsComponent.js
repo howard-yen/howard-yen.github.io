@@ -55,6 +55,9 @@ export default class Publications extends React.Component{
                 <div className="PublicationContainer">
                     {publications}
                 </div>
+                <h4 style={{'font-size': '100%'}}>
+                    * denotes equal contribution.
+                </h4>
             </div>
         );
     };
