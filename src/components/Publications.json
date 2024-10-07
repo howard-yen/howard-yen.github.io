@@ -1,5 +1,15 @@
 [
     {
+        "text": "Howard Yen, Tianyu Gao, Minmin Hou, Ke Ding, Daniel Fleischer, Peter Izsak, Moshe Wasserblat, and Danqi Chen. HELMET: How to Evaluate Long-Context Language Models Effectively and Thoroughly. Preprint, under review.",
+        "paper": "https://arxiv.org/abs/2410.02694",
+        "code": "https://github.com/princeton-nlp/HELMET"
+    },
+    {
+        "text": "Tianyu Gao, Alexander Wettig, Howard Yen, and Danqi Chen. How to Train Long-Context Language Models (Effectively). Preprint, under review.",
+        "paper": "https://arxiv.org/abs/2410.02660",
+        "code": "https://github.com/princeton-nlp/ProLong"
+    },
+    {
         "text": "Hongjin Su*, Howard Yen*, Mengzhou Xia*, Weijia Shi, Niklas Muennighoff, Han-yu Wang, Haisu Liu, Quan Shi, Zachary S. Siegel, Michael Tang, Ruoxi Sun, Jinsung Yoon, Sercan O. Arik, Danqi Chen, Tao Yu. BRIGHT: A Realistic and Challenging Benchmark for Reasoning-Intensive Retrieval. Preprint, under review.",
         "paper": "https://arxiv.org/abs/2407.12883",
         "code": "https://github.com/xlang-ai/BRIGHT"
@@ -10,7 +20,7 @@
         "code": "https://github.com/princeton-nlp/CEPE"
     },
     {
-        "text": "Ryan Liu, Howard Yen, Raja Marjieh, Thomas L. Griffiths, and Ranjay Krishna. Optimizing Interpersonal Communication by Simulating Audiences with Large Language Models. Preprint.",
+        "text": "Ryan Liu, Howard Yen, Raja Marjieh, Thomas L. Griffiths, and Ranjay Krishna. Optimizing Interpersonal Communication by Simulating Audiences with Large Language Models. Preprint, under review.",
         "paper": "https://arxiv.org/abs/2311.00687",
         "code": "https://github.com/theryanl/EGS"
     },
