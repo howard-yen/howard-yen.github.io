@@ -9,6 +9,22 @@ function Linked({ name, item }) {
     return <a className="external" href={item} title={name} target="_blank" rel="noopener noreferrer"> [{name}] </a>
 }
 
+function BoldedText({ text, shouldBeBold }) {
+    const textArray = text.split(shouldBeBold);
+    return (
+      <span>
+        {textArray.map((item, index) => (
+          <>
+            {item}
+            {index !== textArray.length - 1 && (
+              <b>{shouldBeBold}</b>
+            )}
+          </>
+        ))}
+      </span>
+  );
+  }
+
 function Card(props) {
     console.log(props.publication)
     return(
@@ -17,7 +33,12 @@ function Card(props) {
                 // onMouseMove={({clientX: x, clientY: y}) => set({xys: calc(x, y)})}
             >
                 <div className="ProjectText">
-                    {props.publication.text}
+                    <b>{props.publication.title}</b>
+                    <br />
+                    <BoldedText text={props.publication.authors} shouldBeBold="Howard Yen"/>
+                    <br />
+                    {props.publication.venue} 
+                    <br />
                     <Linked name="Paper" item={props.publication.paper}/>
                     <Linked name="Code" item={props.publication.code}/>
                     <Linked name="Blog" item={props.publication.blog}/>

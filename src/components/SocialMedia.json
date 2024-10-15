@@ -1,4 +1,8 @@
 {
+    "googlescholar":{
+        "url": "https://scholar.google.com/citations?user=YOUR_ID&user=8rJOrBEAAAAJ",
+        "image": "googlescholarblack.png"
+    },
     "github":{
         "url": "https://github.com/howard-yen/",
         "image": "githubmarkblack.png"
@@ -12,7 +16,7 @@
         "image": "twitterblack.png"
     },
     "email":{
-        "url": "mailto:hyen@princeton.edu",
+        "url": "mailto:hyen@cs.princeton.edu",
         "image": "emailiconblack.png"
     }
 }

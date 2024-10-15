@@ -2,6 +2,7 @@ import React from 'react';
 import {Transition, animated} from 'react-spring/renderprops';
 import './AboutComponent.css';
 
+
 export default class About extends React.Component{
     constructor(props){
         super(props);
@@ -11,6 +12,7 @@ export default class About extends React.Component{
     }
 
     toggle = e => this.setState(state => ({show: !this.state.show}))
+    
 
     render(){
         return(
@@ -30,7 +32,14 @@ export default class About extends React.Component{
                         >
                             <h2>Hi I'm Howard!</h2>
                             <p style={{"text-indent": "1em"}}>
-                                I'm a Computer Science PhD student at Princeton University, where I also obtained my BSE in 2023. I'm part of the&nbsp;
+                                I'm a Computer Science PhD student at Princeton University, advised by&nbsp;
+                                {/* I'm fortunate to be advised by&nbsp; */}
+                                <a className="external" href="https://www.cs.princeton.edu/~danqic/" title="Danqi Chen" target="_blank" rel="noopener noreferrer">
+                                    Professor Danqi Chen
+                                </a>
+                                .
+                                Previously, I also obtained my BSE at Princeton in 2023. 
+                                I'm part of the&nbsp;
                                 <a className="external" href="https://princeton-nlp.github.io/" title="Princeton NLP Group" target="_blank" rel="noopener noreferrer">
                                     Princeton Natural Language Processing Group
                                 </a> and&nbsp;
@@ -38,11 +47,7 @@ export default class About extends React.Component{
                                     Princeton Language and Intelligence
                                 </a> 
                                 .
-                                I am fortunate to be advised by&nbsp;
-                                <a className="external" href="https://www.cs.princeton.edu/~danqic/" title="Danqi Chen" target="_blank" rel="noopener noreferrer">
-                                    Professor Danqi Chen
-                                </a>
-                                .&nbsp;
+                                
                                 {/* &nbsp;and mentored by&nbsp; 
                                 <a className="external" href="https://jhyuklee.github.io/" title="Dr. Jinhyuk Lee" target="_blank" rel="noopener noreferrer">
                                     Dr. Jinhyuk Lee
@@ -53,8 +58,8 @@ export default class About extends React.Component{
                                 </a>. */}
                             </p>
                             <p style={{"text-indent": "1em"}}>
-                                My research interests are in developing better grounded and more trustworthy language models.
-                                In the past, my works involve benchmarking and building better retrieval systems and language models. 
+                                My research focuses on benchmarking and enhancing language technologies with an emphasis on efficiency, reasoning, and attribution. 
+                                Previously, I have developed long-context and reasoning-intensive benchmarks as well as methods to improve the performance of long-context models.
                                 You can find a copy of my CV&nbsp;
                                 <a className="external" href="/CV.pdf" title="CV" target="_blank" rel="noopener noreferrer">
                                     here
@@ -62,7 +67,7 @@ export default class About extends React.Component{
                             </p>
                             <p style={{"text-indent": "1em"}}>
                                 In my free time, I like to read, cook, and run.
-                                I used to serve as the Vice Chair of Princeton Association of Computing Machinery(ACM). 
+                                I used to serve as the Vice Chair of Princeton Association of Computing Machinery (ACM). 
                             </p>
                         </animated.div>)
                     }

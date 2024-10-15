@@ -87,7 +87,7 @@ export default class ContactsComponent extends React.Component{
                     Contact
                 </h2>
                 <h3>
-                If you are interested in chatting, feel free to reach out at hyen [at] princeton [dot] edu
+                If you are interested in chatting about research, feel free to reach out at hyen [at] cs [dot] princeton [dot] edu
                 </h3>
                 <p>
                     Thanks for checking out my website!
