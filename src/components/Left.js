@@ -47,7 +47,7 @@ export default class Left extends React.Component{
                         顏和光
                     </h2>
                     <div style={{'width': '50%', 'text-align':'center'}}>
-                        hyen [at] princeton [dot] edu
+                        hyen [at] cs [dot] princeton [dot] edu
                     </div>
                 </header>
                 <Menu
@@ -58,7 +58,7 @@ export default class Left extends React.Component{
                 <footer>
                     <BubbleRow />
                     <p style={{"text-align": "center", "font-size": "0.7em"}}>
-                        Last updated: 2024/10/14
+                        Last updated: 2024/12/20
                     </p>
                 </footer>
             </div>

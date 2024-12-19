@@ -38,7 +38,7 @@ export default class About extends React.Component{
                                     Professor Danqi Chen
                                 </a>
                                 .
-                                Previously, I also obtained my BSE at Princeton in 2023. 
+                                Previously, I also obtained my BSE from Princeton in 2023. 
                                 I'm part of the&nbsp;
                                 <a className="external" href="https://princeton-nlp.github.io/" title="Princeton NLP Group" target="_blank" rel="noopener noreferrer">
                                     Princeton Natural Language Processing Group
@@ -58,8 +58,9 @@ export default class About extends React.Component{
                                 </a>. */}
                             </p>
                             <p style={{"text-indent": "1em"}}>
-                                My research focuses on benchmarking and enhancing language technologies with an emphasis on efficiency, reasoning, and attribution. 
+                                My research focuses on benchmarking and improving language technologies with an emphasis on efficiency, reasoning, and attribution. 
                                 Previously, I have developed long-context and reasoning-intensive benchmarks as well as methods to improve the performance of long-context models.
+                                Recently, I'm particularly interested in the potential of integrating information retrieval and language models.
                                 You can find a copy of my CV&nbsp;
                                 <a className="external" href="/CV.pdf" title="CV" target="_blank" rel="noopener noreferrer">
                                     here
@@ -67,7 +68,8 @@ export default class About extends React.Component{
                             </p>
                             <p style={{"text-indent": "1em"}}>
                                 In my free time, I like to read, cook, and run.
-                                I used to serve as the Vice Chair of Princeton Association of Computing Machinery (ACM). 
+                                I also play badminton and soccer occasionally.
+                                {/* I used to serve as the Vice Chair of Princeton Association of Computing Machinery (ACM).  */}
                             </p>
                         </animated.div>)
                     }
