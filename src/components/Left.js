@@ -58,7 +58,7 @@ export default class Left extends React.Component{
                 <footer>
                     <BubbleRow />
                     <p style={{"text-align": "center", "font-size": "0.7em"}}>
-                        Last updated: 2024/12/20
+                        Last updated: January 2025
                     </p>
                 </footer>
             </div>

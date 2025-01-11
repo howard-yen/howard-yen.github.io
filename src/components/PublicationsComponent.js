@@ -37,7 +37,9 @@ function Card(props) {
                     <br />
                     <BoldedText text={props.publication.authors} shouldBeBold="Howard Yen"/>
                     <br />
-                    {props.publication.venue} 
+                    <i>
+                        {props.publication.venue} 
+                    </i>
                     <br />
                     <Linked name="Paper" item={props.publication.paper}/>
                     <Linked name="Code" item={props.publication.code}/>
