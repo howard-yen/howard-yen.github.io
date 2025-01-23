@@ -44,6 +44,7 @@ function Card(props) {
                     <Linked name="Paper" item={props.publication.paper}/>
                     <Linked name="Code" item={props.publication.code}/>
                     <Linked name="Blog" item={props.publication.blog}/>
+                    <Linked name="Site" item={props.publication.site}/>
                 </div>
             </div>
     );
@@ -68,7 +69,7 @@ export default class Publications extends React.Component{
     }
 
     render(){
-        console.log("hihihi")
+        // console.log("hihihi")
         const publications = this.makePublications();
         return(
             <div className="Publications">
