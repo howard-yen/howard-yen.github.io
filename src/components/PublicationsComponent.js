@@ -39,7 +39,7 @@ function Card(props) {
                     <br />
                     <i>
                         {props.publication.venue} 
-                    </i>
+                    </i>, {props.publication.year}
                     <br />
                     <Linked name="Paper" item={props.publication.paper}/>
                     <Linked name="Code" item={props.publication.code}/>
