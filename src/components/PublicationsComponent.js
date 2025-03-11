@@ -30,21 +30,21 @@ function Card(props) {
     return(
             <div
                 className="PublicationCard"
-                // onMouseMove={({clientX: x, clientY: y}) => set({xys: calc(x, y)})}
             >
                 <div className="ProjectText">
                     <b>{props.publication.title}</b>
                     <br />
-                    <BoldedText text={props.publication.authors} shouldBeBold="Howard Yen"/>
+                    <BoldedText text={props.publication.authors} shouldBeBold="Howard Yen"/>.
                     <br />
                     <i>
                         {props.publication.venue} 
-                    </i>, {props.publication.year}
+                    </i>, {props.publication.year}.
+                    {/* if there is a highlight field, add it with orange highlights */}
+                    {props.publication.highlight && <span style={{color: '#E77500'}}>&nbsp;{props.publication.highlight}</span>}
                     <br />
-                    <Linked name="Paper" item={props.publication.paper}/>
-                    <Linked name="Code" item={props.publication.code}/>
-                    <Linked name="Blog" item={props.publication.blog}/>
-                    <Linked name="Site" item={props.publication.site}/>
+                    {props.publication.links.map((link) => (
+                        <Linked name={link.name} item={link.url}/>
+                    ))}
                 </div>
             </div>
     );
@@ -69,19 +69,18 @@ export default class Publications extends React.Component{
     }
 
     render(){
-        // console.log("hihihi")
         const publications = this.makePublications();
         return(
             <div className="Publications">
                 <h2 style={{'font-size': '300%'}}>
                     Publications
                 </h2>
-                <div className="PublicationContainer">
-                    {publications}
-                </div>
                 <h4 style={{'font-size': '100%'}}>
                     * denotes equal contribution.
                 </h4>
+                <div className="PublicationContainer">
+                    {publications}
+                </div>
             </div>
         );
     };

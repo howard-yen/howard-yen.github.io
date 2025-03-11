@@ -1,69 +1,158 @@
 [
     {
         "title": "HELMET: How to Evaluate Long-Context Language Models Effectively and Thoroughly",
-        "authors": "Howard Yen, Tianyu Gao, Minmin Hou, Ke Ding, Daniel Fleischer, Peter Izsak, Moshe Wasserblat, and Danqi Chen.",
+        "authors": "Howard Yen, Tianyu Gao, Minmin Hou, Ke Ding, Daniel Fleischer, Peter Izsak, Moshe Wasserblat, and Danqi Chen",
         "venue": "(To appear in) Proceedings of ICLR",
         "year": 2025,
-        "paper": "https://arxiv.org/abs/2410.02694",
-        "code": "https://github.com/princeton-nlp/HELMET",
-        "site": "https://princeton-nlp.github.io/HELMET/"
+        "links": [
+            {
+                "name": "Paper",
+                "url": "https://arxiv.org/abs/2410.02694"
+            },
+            {
+                "name": "Code",
+                "url": "https://github.com/princeton-nlp/HELMET"
+            },
+            {
+                "name": "Site",
+                "url": "https://princeton-nlp.github.io/HELMET/"
+            }]
     },
     {
         "title": "BRIGHT: A Realistic and Challenging Benchmark for Reasoning-Intensive Retrieval",
         "authors": "Hongjin Su*, Howard Yen*, Mengzhou Xia*, Weijia Shi, Niklas Muennighoff, Han-yu Wang, Haisu Liu, Quan Shi, Zachary S. Siegel, Michael Tang, Ruoxi Sun, Jinsung Yoon, Sercan O. Arik, Danqi Chen, and Tao Yu",
         "venue": "(To appear in) Proceedings of ICLR",
         "year": 2025,
-        "paper": "https://arxiv.org/abs/2407.12883",
-        "code": "https://github.com/xlang-ai/BRIGHT",
-        "site": "https://brightbenchmark.github.io/"
+        "links": [
+            {
+                "name": "Paper",
+                "url": "https://arxiv.org/abs/2407.12883"
+            },
+            {
+                "name": "Code",
+                "url": "https://github.com/xlang-ai/BRIGHT"
+            },
+            {
+                "name": "Site",
+                "url": "https://brightbenchmark.github.io/"
+            }
+        ],
+        "highlight": "Spotlight (top 5.1%)"
+    },
+    {
+        "title": "MMTEB: Massive Multilingual Text Embedding Benchmark",
+        "authors": "Kenneth Enevoldsen, ..., Howard Yen, ..., Niklas Muennighoff",
+        "venue": "(To appear in) Proceedings of ICLR",
+        "year": 2025,
+        "links": [
+            {
+                "name": "Paper",
+                "url": "https://arxiv.org/abs/2502.13595"
+            },
+            {
+                "name": "Code",
+                "url": "https://github.com/embeddings-benchmark/mteb"
+            }
+        ]
     },
     {
         "title": "LongProc: Benchmarking Long-Context Language Models on Long Procedural Generation",
-        "authors": "Xi Ye, Fangcong Yin, Yinghui He, Joie Zhang, Howard Yen, Tianyu Gao, Greg Durrett, and Danqi Chen.",
+        "authors": "Xi Ye, Fangcong Yin, Yinghui He, Joie Zhang, Howard Yen, Tianyu Gao, Greg Durrett, and Danqi Chen",
         "venue": "Preprint",
         "year": 2025,
-        "paper": "https://arxiv.org/abs/2501.05414",
-        "code": "https://github.com/princeton-pli/LongProc",
-        "site": "https://princeton-pli.github.io/LongProc/"
+        "links": [
+            {
+                "name": "Paper",
+                "url": "https://arxiv.org/abs/2501.05414"
+            },
+            {
+                "name": "Code",
+                "url": "https://github.com/princeton-pli/LongProc"
+            },
+            {
+                "name": "Site",
+                "url": "https://princeton-pli.github.io/LongProc/"
+            }
+        ]
     },
     {
         "title": "How to Train Long-Context Language Models (Effectively)",
-        "authors": "Tianyu Gao*, Alexander Wettig*, Howard Yen, and Danqi Chen.",
+        "authors": "Tianyu Gao*, Alexander Wettig*, Howard Yen, and Danqi Chen",
         "venue": "Preprint",
         "year": 2024,
-        "paper": "https://arxiv.org/abs/2410.02660",
-        "code": "https://github.com/princeton-nlp/ProLong"
+        "links": [
+            {
+                "name": "Paper",
+                "url": "https://arxiv.org/abs/2410.02660"
+            },
+            {
+                "name": "Code",
+                "url": "https://github.com/princeton-nlp/ProLong"
+            }
+        ]
     },
     {
         "title": "Long-Context Language Modeling with Parallel Context Encoding",
         "authors": "Howard Yen, Tianyu Gao, and Danqi Chen",
         "venue": "Proceedings of ACL",
         "year": 2024,
-        "paper": "https://arxiv.org/abs/2402.16617",
-        "code": "https://github.com/princeton-nlp/CEPE"
+        "links": [
+            {
+                "name": "Paper",
+                "url": "https://arxiv.org/abs/2402.16617"
+            },
+            {
+                "name": "Code",
+                "url": "https://github.com/princeton-nlp/CEPE"
+            }
+        ]
     },
     {
         "title": "Improving Interpersonal Communication by Simulating Audiences with Language Models",
         "authors": "Ryan Liu, Howard Yen, Raja Marjieh, Thomas L. Griffiths, and Ranjay Krishna",
         "venue": "Preprint",
         "year": 2023,
-        "paper": "https://arxiv.org/abs/2311.00687",
-        "code": "https://github.com/theryanl/EGS"
+        "links": [
+            {
+                "name": "Paper",
+                "url": "https://arxiv.org/abs/2311.00687"
+            },
+            {
+                "name": "Code",
+                "url": "https://github.com/theryanl/EGS"
+            }
+        ]
     },
     {
         "title": "Enabling Large Language Models to Generate Text with Citations",
         "authors": "Tianyu Gao, Howard Yen, Jiatong Yu, and Danqi Chen",
         "venue": "Proceedings of EMNLP",
         "year": 2023,
-        "paper": "https://arxiv.org/abs/2305.14627",
-        "code": "https://github.com/princeton-nlp/ALCE"
+        "links": [
+            {
+                "name": "Paper",
+                "url": "https://arxiv.org/abs/2305.14627"
+            },
+            {
+                "name": "Code",
+                "url": "https://github.com/princeton-nlp/ALCE"
+            }
+        ]
     },
     {
         "title": "MoQA: Benchmarking Multi-Type Open-Domain Question Answering",
         "authors": "Howard Yen, Tianyu Gao, Jinhyuk Lee, and Danqi Chen",
         "venue": "Proceedings of DialDoc Workshop @ ACL",
         "year": 2023,
-        "paper": "https://aclanthology.org/2023.dialdoc-1.2/",
-        "code": "https://github.com/princeton-nlp/MoQA"
+        "links": [
+            {
+                "name": "Paper",
+                "url": "https://aclanthology.org/2023.dialdoc-1.2/"
+            },
+            {
+                "name": "Code",
+                "url": "https://github.com/princeton-nlp/MoQA"
+            }
+        ]
     }
 ]

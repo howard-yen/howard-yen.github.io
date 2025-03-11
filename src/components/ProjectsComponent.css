@@ -1,31 +1,38 @@
 .Projects{
-    /* position: absolute; */
-    padding: 2%;
-    width: auto;
-    height: auto;
+    position: relative;
+    width: 80%;
+    margin: 5% auto;
+    padding: 0 10px;
+    box-sizing: border-box;
 }
 
 .CardContainer{
     display: grid;
-    grid-gap: 1rem;
+    grid-gap: 0.5rem;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     /* grid-auto-rows: 1fr; */
     grid-template-rows: min-content;
     column-gap: 2em;
-    row-gap: 2em;
+    row-gap: 1em;
 }
 
 .Publications{
-    padding: 2%;
-    width: auto;
-    height: auto;
+    position: relative;
+    width: 80%;
+    margin: 0.5rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+    box-sizing: border-box;
 }
 
-.PublicationsContainer{
-    display: grid;
-    grid-gap: 3rem;
-    column-gap: 2em;
-    row-gap: 4em;
+.PublicationContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    box-sizing: border-box;
 }
 
 .PublicationCard{
@@ -33,20 +40,19 @@
     color: black;
     outline: none;
     text-decoration: none;
-    width: 80%;
-    /* height: 6em; */
+    width: 100%;
     background: white;
-    /* border-radius: 3%; */
     box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.3);
-    transition: box-shadow 0.5s;
+    transition: transform 0.3s ease;
     will-change: transform;
-    /* border: 1em solid white; */
-    /* border-bottom-width: 0.5em; */
-    /* display: grid; */
-    /* grid-template-rows: 8em 4em 1fr; */
-    place-items: flex-start;
-    margin: 1em;
-    margin-left: 0em;
+    border: 1em solid white;
+    margin-bottom: 1rem;
+    z-index: 2;
+    box-sizing: border-box;
+}
+
+.PublicationCard:hover {
+    transform: translateY(-5px);
 }
 
 .Card{
@@ -66,10 +72,11 @@
     display: grid;
     grid-template-rows: 8em 4em 1fr;
     place-items: center;
+    box-sizing: border-box;
 }
 
 .ProjectText{
-    padding: 1em;
+    box-sizing: border-box;
 }
 
 .Card:hover{
@@ -82,4 +89,27 @@
     margin-right: auto;
     width: 5em;
     height: 5em;
-};
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    .Projects, .Publications {
+        width: 90%;
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .Projects, .Publications {
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    
+    .PublicationCard, .Card {
+        width: 100%;
+        padding: 0.5em;
+        border-width: 0.5em;
+        box-sizing: border-box;
+    }
+}

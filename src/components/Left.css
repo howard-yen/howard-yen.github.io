@@ -1,45 +1,113 @@
-.Split{
-    height: 100%;
+.Split {
+    height: 100vh;
+    width: 50%;
+    position: fixed;
     z-index: 1;
     top: 0;
     overflow-x: hidden;
+    transition: 0.5s;
 }
 
-.Left-header{
-    position:relative;
-    width: 90%;
-    padding: 5%;
-    /* height: 30%; */
-    display: grid;
-    place-items: center;
+.Left {
+    left: 0;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.menu{
-    display: grid;
-    place-items: center;
-    position: relative;
-    width: 90%;
-    padding: 5%;
-    right: 0%;
+.left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 90%;
+    width: 100%;
+    padding: 20px;
 }
 
-.MenuButton{
-    font-size: 200%;
-    margin: 0.5vw;
-    border: none;
-    outline: none;
+.Left-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.Left-header h1 {
+    margin-bottom: 0;
+    font-size: 2rem;
+}
+
+.Left-header h2 {
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.email {
+    width: 100%;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    width: 100%;
+    flex-grow: 1;
+}
+
+.MenuButton {
+    display: block;
+    padding: 10px 15px;
+    margin: 5px 0;
     text-decoration: none;
-    color: inherit;
-    opacity: 0.6;
+    color: #333;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+    text-align: center;
+    width: 80%;
 }
 
-.MenuButton:hover{
-    opacity: 1;
+.MenuButton:hover {
+    background-color: #e9ecef;
+    transform: translateY(-2px);
 }
 
-footer{
-    position: absolute;
-    width: 90%;
-    bottom: 0;
-    padding: 5%;
+.MenuButton.active {
+    font-weight: bold;
+    /* background-color: #e9ecef; */
+    color: #E77500;
+}
+
+footer {
+    margin-top: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.update-text {
+    text-align: center;
+    font-size: 0.7em;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .Left-header h1 {
+        font-size: 1.5rem;
+    }
+    
+    .Left-header h2 {
+        font-size: 1.2rem;
+    }
+    
+    .MenuButton {
+        font-size: 1rem;
+    }
 }

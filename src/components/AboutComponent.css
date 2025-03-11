@@ -1,53 +1,73 @@
-.About{
+.About {
     position: relative;
+    width: 80%;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px; /* Add some padding on both sides */
+}
+
+.About img {
+    margin-bottom: 2rem;
+    /* border-radius: 50%; */
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+
+.AboutTextContainer {
     width: 100%;
-    min-height: auto;
-    margin: 10%;
-    /* background-image: url("../images/about.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem; /* Creates space between text sections */
 }
 
-.AboutPic{
-    display: block;
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    border: 1em solid white;
-    z-index: 1;
-    width: 35%;
-    height: auto;
-    border-radius: 3%;
-}
-
-.AboutText{
+.AboutText {
     z-index: 2;
-    display: block;
-    position: relative;
-    width: 60%;
-    height: min-content;
-    /* left: 10%; */
-    /* top: 10vh; */
-
+    width: 100%;
     background-color: white;
     color: black;
-    /* color: white; */
-    /* transition: all 0.3 ease-out; */
-    /* opacity: 1; */
-    /* border-radius: 3%; */
     box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.3);
     border: 1em solid white;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+    box-sizing: border-box; /* Include padding and border in the element's width */
 }
 
-@media screen and (max-width: 500px){
-    .AboutPic{
-        top: 10vh;
-    }
+.AboutText:hover {
+    transform: translateY(-5px);
+}
 
-    .AboutText{
-        top: 25vh;
-        width: 80%;
-        left: 5%;
+.AboutText h2 {
+    margin-top: 0;
+}
+
+.AboutText a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.AboutText a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .About {
+        width: 90%;
+        padding: 0 15px; /* Increase padding for medium screens */
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .About {
+        width: 100%;
+        padding: 0 20px; /* Ensure consistent padding on both sides for mobile */
+        box-sizing: border-box;
+    }
+    
+    .AboutText {
+        width: 100%;
+        padding: 0.5em;
+        border-width: 0.5em;
+        box-sizing: border-box;
     }
 }

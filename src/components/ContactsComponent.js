@@ -86,12 +86,14 @@ export default class ContactsComponent extends React.Component{
                 <h2 style={{'font-size':'300%'}}>
                     Contact
                 </h2>
-                <h3>
-                If you are interested in chatting about research, feel free to reach out at hyen [at] cs [dot] princeton [dot] edu
-                </h3>
-                <p>
-                    Thanks for checking out my website!
-                </p>
+                <div className="ContactText">
+                    <h3>
+                    If you are interested in chatting about research, feel free to reach out at hyen [at] cs [dot] princeton [dot] edu
+                    </h3>
+                    <p>
+                        Thanks for checking out my website!
+                    </p>
+                </div>
                 {/* <Gallery/> */}
             </div>
         );
