@@ -40,7 +40,7 @@ function Card(props) {
                         {props.publication.venue} 
                     </i>, {props.publication.year}.
                     {/* if there is a highlight field, add it with orange highlights */}
-                    {props.publication.highlight && <span style={{color: '#E77500'}}>&nbsp;{props.publication.highlight}</span>}
+                    {props.publication.highlight && <span style={{color: '#E77500'}}>&nbsp;{props.publication.highlight}.</span>}
                     <br />
                     {props.publication.links.map((link) => (
                         <Linked name={link.name} item={link.url}/>

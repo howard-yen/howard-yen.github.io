@@ -65,7 +65,7 @@ export default class About extends React.Component{
                                         Princeton Language and Intelligence
                                     </a> 
                                     .
-                                    I'm grateful for being supported by the The William A. Dippel ’50 *55 Graduate Fellowship.
+                                    I'm grateful for being supported by the William A. Dippel ’50 *55 Graduate Fellowship.
                                     You can find a copy of my CV&nbsp;
                                     <a className="external" href="/CV.pdf" title="CV" target="_blank" rel="noopener noreferrer">
                                         here
