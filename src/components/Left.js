@@ -63,7 +63,7 @@ export default class Left extends React.Component {
                     <footer>
                         <BubbleRow />
                         <p className="update-text">
-                            Last updated: August 2025
+                            Last updated: September 2025
                         </p>
                     </footer>
                 </div>
