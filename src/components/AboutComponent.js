@@ -76,7 +76,8 @@ export default class About extends React.Component{
                             
                             <div className="AboutText">
                                 <p style={{"text-indent": "1em"}}>
-                                    My research focuses on improving language technologies with an emphasis on reasoning, attribution, and efficiency. 
+                                    {/* My research focuses on improving language technologies with an emphasis on reasoning, attribution, and efficiency.  */}
+                                    {/* My research broadly revolves around language modeling and  */}
                                     Previously, I have developed long-context and reasoning-intensive benchmarks (
                                         <a className="external" href="https://arxiv.org/abs/2410.02694" title="HELMET" target="_blank" rel="noopener noreferrer">HELMET</a>,&nbsp;
                                         <a className="external" href="https://arxiv.org/abs/2407.12883" title="BRIGHT" target="_blank" rel="noopener noreferrer">BRIGHT</a>
@@ -85,16 +86,18 @@ export default class About extends React.Component{
                                         <a className="external" href="https://arxiv.org/abs/2402.16617" title="CEPE" target="_blank" rel="noopener noreferrer">CEPE</a>,&nbsp;
                                         <a className="external" href="https://arxiv.org/abs/2410.02660" title="ProLong" target="_blank" rel="noopener noreferrer">ProLong</a>
                                     ).
-                                    Recently, I'm particularly excited about the potential of integrating information retrieval and language models.
-                                    Please check out my <a className="external" href="https://scholar.google.com/citations&user=8rJOrBEAAAAJ" title="Google Scholar" target="_blank" rel="noopener noreferrer">Google Scholar</a> for a full list of my publications.
+                                    Recently, I'm particularly excited about long-horizon systems (
+                                        <a className="external" href="https://arxiv.org/abs/2510.18939" title="" target="_blank" rel="noopener noreferrer">SLIM</a>
+                                    ) and their foundations–long-context LMs and tool-using agents.
+                                    Specifically, I'm interested in the dynamics between pre-training and post-training (e.g., reinforcement learning) for long-context LMs with reasoning and tool-use capabilities.
+                                    Please check out my <a className="external" href="https://scholar.google.com/citations?user=8rJOrBEAAAAJ" title="Google Scholar" target="_blank" rel="noopener noreferrer">Google Scholar</a> for a full list of my publications.
                                 </p>   
                             </div>
 
                             <div className="AboutText">
                                 <p style={{"text-indent": "1em"}}>
-                                    In my free time, I like to run, read, cook, and (occasionally) play badminton and soccer.
+                                    In my free time, I like to run, cook, read, and (occasionally) play/do badminton/soccer/BJJ.
                                     I also enjoy learning languages—am currently studying Taiwanese (台語) and Japanese (日本語).
-                                    
                                 </p>
                             </div>
                         </animated.div>
