@@ -1,72 +1,101 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# howard-yen.github.io
 
-## Available Scripts
+Personal academic website built with [Next.js](https://nextjs.org/) and deployed to GitHub Pages.
 
-In the project directory, you can run:
+## Getting Started
 
-### `npm run deploy`
+```bash
+npm install
+npm run dev        # Start dev server at http://localhost:3000
+npm run build      # Build static site to /out
+npm run deploy     # Build + deploy to GitHub Pages (master branch)
+```
 
-Deploy the website to the designated github url.
+## Project Structure
 
-### `npm start`
+```
+src/
+  app/
+    layout.tsx                 # Root layout (navbar, footer, fonts, metadata)
+    page.tsx                   # About / home page
+    globals.css                # All styles
+    publications/page.tsx      # Publications page
+    blog/
+      page.tsx                 # Blog index
+      [slug]/page.tsx          # Individual blog post
+  components/
+    Navbar.tsx                 # Top navigation bar
+    Footer.tsx                 # Social links + footer text
+    HashRedirect.tsx           # Redirects old #hash URLs
+  data/
+    publications.json          # Publication entries
+    social-media.json          # Social media links
+  content/
+    blog/                      # MDX blog posts
+  lib/
+    blog.ts                    # Utilities for reading blog posts
+  images/                      # Static images imported in code
+public/                        # Static assets served as-is (CV.pdf, icons, etc.)
+```
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## How To
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Add a publication
 
-### `npm test`
+Add an entry to `src/data/publications.json`:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```json
+{
+  "title": "Paper Title",
+  "authors": "Author One, Howard Yen, Author Two",
+  "venue": "Proceedings of XYZ",
+  "year": 2026,
+  "links": [
+    { "name": "Paper", "url": "https://arxiv.org/abs/..." },
+    { "name": "Code", "url": "https://github.com/..." }
+  ],
+  "highlight": "Spotlight"
+}
+```
 
-### `npm run build`
+- Entries are rendered in array order (newest first).
+- "Howard Yen" in the authors string is automatically bolded.
+- `highlight` is optional (rendered in orange).
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Add a blog post
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Create a new `.mdx` file in `src/content/blog/`:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```mdx
+---
+title: "My Post Title"
+date: "2026-05-07"
+summary: "A short description shown on the blog index."
+---
 
-### `npm run eject`
+Write **Markdown** here. You can also use JSX and React components inline.
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The post will appear at `/blog/<filename>/` (the filename without `.mdx` becomes the URL slug).
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Edit the About page
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Edit `src/app/page.tsx` directly. Content is in JSX — each `<div className="card">` block is a white card section.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Edit navigation links
 
-## Learn More
+Edit the `links` array in `src/components/Navbar.tsx`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Edit social links
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Edit `src/data/social-media.json`. Icons live in `public/SocialMedia/`.
 
-### Code Splitting
+### Edit site metadata
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+Title, description, and favicon are set in `src/app/layout.tsx` via the `metadata` export.
 
-### Analyzing the Bundle Size
+## Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+`npm run deploy` builds the site and pushes the static output to the `master` branch via `gh-pages`. GitHub Pages serves from `master`.
 
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+The `.nojekyll` file is automatically created during deploy to ensure the `_next/` directory is served correctly.

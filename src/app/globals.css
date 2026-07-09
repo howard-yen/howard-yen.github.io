@@ -1,0 +1,254 @@
+:root {
+  --color-bg-dark: #363946;
+  --color-bg-light: #f6fff8;
+  --color-accent: #E77500;
+  --color-link: #0066cc;
+  --color-text: #333;
+  --color-card-shadow: rgba(0, 0, 0, 0.3);
+  --max-width: 800px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-bg-dark);
+  color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* ── Navbar ── */
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: var(--color-bg-light);
+  border-bottom: 1px solid #e0e0e0;
+  padding: 0.75rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-name {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.navbar-name:hover {
+  color: var(--color-accent);
+}
+
+.navbar-links {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 1rem;
+  padding: 0.25rem 0;
+  transition: color 0.2s ease;
+}
+
+.navbar-link:hover {
+  color: var(--color-accent);
+}
+
+.navbar-link.active {
+  font-weight: 600;
+  color: var(--color-accent);
+}
+
+/* ── Main Content ── */
+
+.main-content {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  min-height: calc(100vh - 60px - 120px);
+}
+
+/* ── Footer ── */
+
+.site-footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.social-row {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.social-link {
+  padding: 0.25rem;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+.social-link:hover {
+  opacity: 1;
+}
+
+.footer-text {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* ── Shared card style ── */
+
+.card {
+  width: 100%;
+  background: white;
+  color: black;
+  box-shadow: 0px 10px 30px -5px var(--color-card-shadow);
+  border: 1em solid white;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card a {
+  color: var(--color-link);
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+/* ── External links ── */
+
+a.external {
+  color: var(--color-accent);
+}
+
+/* ── Page titles ── */
+
+.page-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* ── About page ── */
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-pic {
+  margin-bottom: 2rem;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.about-text-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* ── Blog post ── */
+
+.blog-post h1 {
+  margin-bottom: 0.25rem;
+}
+
+.blog-content {
+  margin-top: 2rem;
+  line-height: 1.8;
+}
+
+.blog-content h1,
+.blog-content h2,
+.blog-content h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.blog-content p {
+  margin-bottom: 1rem;
+}
+
+.blog-content a {
+  color: var(--color-accent);
+}
+
+.blog-content code {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.15em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+.blog-content pre {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+.blog-content pre code {
+  background: none;
+  padding: 0;
+}
+
+.blog-content blockquote {
+  border-left: 3px solid var(--color-accent);
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.blog-content img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+/* ── Responsive ── */
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    padding: 0.75rem 1rem;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .navbar-links {
+    gap: 1rem;
+  }
+
+  .main-content {
+    padding: 1.5rem 1rem;
+  }
+
+  .card {
+    border-width: 0.5em;
+    padding: 0.5em;
+  }
+}

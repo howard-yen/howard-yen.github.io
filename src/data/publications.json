@@ -1,9 +1,25 @@
 [
     {
-        "title": "Lost in the Maze: Overcoming Context Limitations in Long-Horizon Agentic Search",
-        "authors": "Howard Yen, Ashwin Paranjape, Mengzhou Xia, Thejas Venkatesh, Jack Hessel, Danqi Chen, Yuhao Zhang",
+        "title": "DySCO: Dynamic Attention-Scaling Decoding for Long-Context LMs",
+        "authors": "Xi Ye*, Wuwei Zhang*, Fangcong Yin, Howard Yen, Danqi Chen",
         "venue": "Preprint",
-        "year": 2025,
+        "year": 2026,
+        "links": [
+            {
+                "name": "Paper",
+                "url": "https://arxiv.org/abs/2602.22175"
+            },
+            {
+                "name": "Code",
+                "url": "https://github.com/princeton-pli/DySCO"
+            }
+        ]
+    },
+    {
+        "title": "Lost in the Maze: Overcoming Context Limitations in Long-Horizon Agentic Search",
+        "authors": "Howard Yen, Yoonsang Lee, Ashwin Paranjape, Mengzhou Xia, Thejas Venkatesh, Jack Hessel, Danqi Chen, Yuhao Zhang",
+        "venue": "To Appear in Proceedings of COLM",
+        "year": 2026,
         "links": [
             {
                 "name": "Paper",
@@ -12,6 +28,22 @@
             {
                 "name": "Code",
                 "url": "https://github.com/howard-yen/slim"
+            }
+        ]
+    },
+    {
+        "title": "Agentic Aggregation for Parallel Scaling of Long-Horizon Agentic Tasks",
+        "authors": "Yoonsang Lee, Howard Yen, Xi Ye, Danqi Chen",
+        "venue": "To Appear in Proceedings of COLM",
+        "year": 2026,
+        "links": [
+            {
+                "name": "Paper",
+                "url": "https://arxiv.org/abs/2604.11753"
+            },
+            {
+                "name": "Code",
+                "url": "https://github.com/princeton-pli/AggAgent"
             }
         ]
     },
